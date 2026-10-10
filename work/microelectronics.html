@@ -50,10 +50,10 @@
     </button>
   </div>
   <ol>
-    <li style="--i:0"><a href="../index.html#services"><span>01</span>Services</a></li>
-    <li style="--i:1"><a href="../index.html#studio"><span>02</span>Studio</a></li>
-    <li style="--i:2"><a href="../work.html"><span>03</span>Our work</a></li>
-    <li style="--i:3"><a href="../index.html#insights"><span>04</span>Insights</a></li>
+    <li style="--i:0"><a href="../index.html#services">Services</a></li>
+    <li style="--i:1"><a href="../index.html#studio">Studio</a></li>
+    <li style="--i:2"><a href="../work.html">Our work</a></li>
+    <li style="--i:3"><a href="../index.html#insights">Insights</a></li>
   </ol>
   <a class="btn btn-primary" href="../index.html#estimate" data-estimate>Estimate project scope</a>
 </div>
@@ -61,7 +61,7 @@
 <main id="main" class="case-page">
   <div class="wrap">
     <p class="label case-crumb"><a href="../work.html">Our work</a> / <a href="../work.html#dir-presentations">Presentations &amp; reports</a> / <b>Slide redesign for a microelectronics company</b></p>
-    <div class="dlg-head"><div><p class="label"><b>Before / after</b></p><h1 id="caseTitle">Slide redesign for a microelectronics company</h1><p class="lead">Redesign of corporate slides to reflect a modern company, follow the brand book and fit all master-deck content onto a single slide.</p></div><dl class="dlg-facts"><dt>Client</dt><dd>Microelectronics</dd><dt>Direction</dt><dd>Presentations &amp; reports</dd><dt>Format</dt><dd>Before / after</dd><dt>Tags</dt><dd>Redesign · B2B</dd></dl></div><div class="dlg-body"><div class="dlg-text"><div><h3>Brief</h3><p>Redesign the company&#x27;s existing slides.</p><ul><li>The deck had to reflect the company&#x27;s modern approach and comply with its brand book, while staying informative and fitting all the information from the master version onto one slide.</li><li>Format: a presentation emailed to partners and clients.</li></ul></div><div><h3>Before / after</h3><p>The first two slides show the original version; the last two show the redesign.</p></div></div><div class="gallery"><figure><img src="../assets/cases/microelectronics-01.webp" alt="Slide redesign for a microelectronics company — image 1 of 4" loading="lazy" decoding="async" style="aspect-ratio:1.7778"></figure><figure><img src="../assets/cases/microelectronics-02.webp" alt="Slide redesign for a microelectronics company — image 2 of 4" loading="lazy" decoding="async" style="aspect-ratio:1.7778"></figure><figure><img src="../assets/cases/microelectronics-03.webp" alt="Slide redesign for a microelectronics company — image 3 of 4" loading="lazy" decoding="async" style="aspect-ratio:1.7778"></figure><figure><img src="../assets/cases/microelectronics-04.webp" alt="Slide redesign for a microelectronics company — image 4 of 4" loading="lazy" decoding="async" style="aspect-ratio:1.7778"></figure></div></div>
+    <div class="dlg-head" data-rv><div><p class="label"><b>Before / after</b></p><h1 id="caseTitle">Slide redesign for a microelectronics company</h1><p class="lead">Redesign of corporate slides to reflect a modern company, follow the brand book and fit all master-deck content onto a single slide.</p></div><dl class="dlg-facts"><dt>Client</dt><dd>Microelectronics</dd><dt>Direction</dt><dd>Presentations &amp; reports</dd><dt>Format</dt><dd>Before / after</dd><dt>Tags</dt><dd>Redesign · B2B</dd></dl></div><div class="dlg-body" data-rv style="--rd:1"><div class="dlg-text"><div><h3>Brief</h3><p>Redesign the company&#x27;s existing slides.</p><ul><li>The deck had to reflect the company&#x27;s modern approach and comply with its brand book, while staying informative and fitting all the information from the master version onto one slide.</li><li>Format: a presentation emailed to partners and clients.</li></ul></div><div><h3>Before / after</h3><p>The first two slides show the original version; the last two show the redesign.</p></div></div><div class="gallery"><figure><img src="../assets/cases/microelectronics-01.webp" alt="Slide redesign for a microelectronics company — image 1 of 4" loading="lazy" decoding="async" style="aspect-ratio:1.7778"></figure><figure><img src="../assets/cases/microelectronics-02.webp" alt="Slide redesign for a microelectronics company — image 2 of 4" loading="lazy" decoding="async" style="aspect-ratio:1.7778"></figure><figure><img src="../assets/cases/microelectronics-03.webp" alt="Slide redesign for a microelectronics company — image 3 of 4" loading="lazy" decoding="async" style="aspect-ratio:1.7778"></figure><figure><img src="../assets/cases/microelectronics-04.webp" alt="Slide redesign for a microelectronics company — image 4 of 4" loading="lazy" decoding="async" style="aspect-ratio:1.7778"></figure></div></div>
     <nav class="case-pager" aria-label="Projects"><a href="device-company.html" rel="prev"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 12H4M10 6l-6 6 6 6"/></svg><span><small>Previous</small>Packaging research for a consumer-device brand</span></a><a href="bank-pilot.html" rel="next"><span><small>Next</small>Bank pilot: results for top management</span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 12h16M14 6l6 6-6 6"/></svg></a></nav>
   </div>
 </main>
@@ -112,6 +112,12 @@
   document.addEventListener("keydown", function (e) { if (e.key === "Escape") setMenu(false); });
   var header = document.getElementById("header"), lastY = window.scrollY;
   window.addEventListener("scroll", function () { var y = window.scrollY; header.classList.toggle("is-hidden", y > lastY && y > 160); lastY = y; }, { passive: true });
+
+  if ("IntersectionObserver" in window && !matchMedia("(prefers-reduced-motion: reduce)").matches) {
+    var vh = window.innerHeight;
+    var io = new IntersectionObserver(function (es) { es.forEach(function (en) { if (en.isIntersecting) { en.target.classList.add("rv-in"); en.target.classList.remove("rv-armed"); io.unobserve(en.target); } }); }, { rootMargin: "0px 0px -8% 0px", threshold: 0.05 });
+    $$("[data-rv]").forEach(function (n) { if (n.getBoundingClientRect().top > vh) { n.classList.add("rv-armed"); io.observe(n); } });
+  }
 })();
 </script>
 </body>

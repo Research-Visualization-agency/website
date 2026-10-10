@@ -50,10 +50,10 @@
     </button>
   </div>
   <ol>
-    <li style="--i:0"><a href="../index.html#services"><span>01</span>Services</a></li>
-    <li style="--i:1"><a href="../index.html#studio"><span>02</span>Studio</a></li>
-    <li style="--i:2"><a href="../work.html"><span>03</span>Our work</a></li>
-    <li style="--i:3"><a href="../index.html#insights"><span>04</span>Insights</a></li>
+    <li style="--i:0"><a href="../index.html#services">Services</a></li>
+    <li style="--i:1"><a href="../index.html#studio">Studio</a></li>
+    <li style="--i:2"><a href="../work.html">Our work</a></li>
+    <li style="--i:3"><a href="../index.html#insights">Insights</a></li>
   </ol>
   <a class="btn btn-primary" href="../index.html#estimate" data-estimate>Estimate project scope</a>
 </div>
@@ -61,7 +61,7 @@
 <main id="main" class="case-page">
   <div class="wrap">
     <p class="label case-crumb"><a href="../work.html">Our work</a> / <a href="../work.html#dir-dashboards">Dashboards &amp; information systems</a> / <b>Stocks in Ports</b></p>
-    <div class="dlg-head"><div><p class="label"><b>Dashboard</b></p><h1 id="caseTitle">Stocks in Ports</h1><p class="lead">An analytical dashboard giving a complete, accurate picture of inventory held in ports for better planning and resource management.</p></div><dl class="dlg-facts"><dt>Client</dt><dd>Logistics</dd><dt>Direction</dt><dd>Dashboards &amp; information systems</dd><dt>Format</dt><dd>Dashboard</dd><dt>Tags</dt><dd>Logistics · Data consolidation</dd></dl></div><div class="dlg-body"><div class="dlg-text"><div><h3>Goal</h3><p>To create an information and analytics tool – a dashboard – that gives a fuller and more accurate picture of inventory in ports, enabling more effective planning and resource management.</p></div><div><h3>Plan</h3><p>The project began with collecting and consolidating data from every work site: gathering data from multiple sources, processing it and bringing it into a single format.</p></div><div><h3>Result</h3><p>The consolidated data improved the quality of analytics, sped up business-intelligence processes and delivered insights for strategic planning in logistics and supply-chain management, strengthening the company&#x27;s competitiveness.</p></div></div><div class="gallery"><figure><img src="../assets/cases/stocks-in-ports-01.webp" alt="Stocks in Ports — image 1 of 1" loading="lazy" decoding="async" style="aspect-ratio:0.4854"></figure></div></div>
+    <div class="dlg-head" data-rv><div><p class="label"><b>Dashboard</b></p><h1 id="caseTitle">Stocks in Ports</h1><p class="lead">An analytical dashboard giving a complete, accurate picture of inventory held in ports for better planning and resource management.</p></div><dl class="dlg-facts"><dt>Client</dt><dd>Logistics</dd><dt>Direction</dt><dd>Dashboards &amp; information systems</dd><dt>Format</dt><dd>Dashboard</dd><dt>Tags</dt><dd>Logistics · Data consolidation</dd></dl></div><div class="dlg-body" data-rv style="--rd:1"><div class="dlg-text"><div><h3>Goal</h3><p>To create an information and analytics tool – a dashboard – that gives a fuller and more accurate picture of inventory in ports, enabling more effective planning and resource management.</p></div><div><h3>Plan</h3><p>The project began with collecting and consolidating data from every work site: gathering data from multiple sources, processing it and bringing it into a single format.</p></div><div><h3>Result</h3><p>The consolidated data improved the quality of analytics, sped up business-intelligence processes and delivered insights for strategic planning in logistics and supply-chain management, strengthening the company&#x27;s competitiveness.</p></div></div><div class="gallery"><figure><img src="../assets/cases/stocks-in-ports-01.webp" alt="Stocks in Ports — image 1 of 1" loading="lazy" decoding="async" style="aspect-ratio:0.4854"></figure></div></div>
     <nav class="case-pager" aria-label="Projects"><a href="control-tower.html" rel="prev"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 12H4M10 6l-6 6 6 6"/></svg><span><small>Previous</small>Control Tower</span></a><a href="fuel-flows.html" rel="next"><span><small>Next</small>Fuel flows to power systems</span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 12h16M14 6l6 6-6 6"/></svg></a></nav>
   </div>
 </main>
@@ -112,6 +112,12 @@
   document.addEventListener("keydown", function (e) { if (e.key === "Escape") setMenu(false); });
   var header = document.getElementById("header"), lastY = window.scrollY;
   window.addEventListener("scroll", function () { var y = window.scrollY; header.classList.toggle("is-hidden", y > lastY && y > 160); lastY = y; }, { passive: true });
+
+  if ("IntersectionObserver" in window && !matchMedia("(prefers-reduced-motion: reduce)").matches) {
+    var vh = window.innerHeight;
+    var io = new IntersectionObserver(function (es) { es.forEach(function (en) { if (en.isIntersecting) { en.target.classList.add("rv-in"); en.target.classList.remove("rv-armed"); io.unobserve(en.target); } }); }, { rootMargin: "0px 0px -8% 0px", threshold: 0.05 });
+    $$("[data-rv]").forEach(function (n) { if (n.getBoundingClientRect().top > vh) { n.classList.add("rv-armed"); io.observe(n); } });
+  }
 })();
 </script>
 </body>

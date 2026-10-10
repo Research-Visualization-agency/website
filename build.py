@@ -55,7 +55,7 @@ def render_body(c):
     if c.get("tags"):
         facts += "<dt>Tags</dt><dd>" + " · ".join(h(t) for t in c["tags"]) + "</dd>"
     facts += "</dl>"
-    out = (f'<div class="dlg-head"><div><p class="label"><b>{h(c["badge"])}</b></p>'
+    out = (f'<div class="dlg-head" data-rv><div><p class="label"><b>{h(c["badge"])}</b></p>'
            f'<h1 id="caseTitle">{h(c["title"])}</h1><p class="lead">{h(c["sum"])}</p></div>{facts}</div>')
     if c.get("stats"):
         out += '<ul class="stats">' + "".join(f"<li><b>{h(s[0])}</b><span>{h(s[1])}</span></li>" for s in c["stats"]) + "</ul>"
@@ -87,7 +87,7 @@ def render_body(c):
             f'style="aspect-ratio:{im[1]}"></figure>' for i, im in enumerate(imgs))
     else:
         gal = f'<figure class="art">{art_svg(c.get("art", "bars"), c["title"] + " — illustration")}</figure>'
-    out += f'<div class="dlg-body"><div class="dlg-text">{txt}</div><div class="gallery{" duo" if duo else ""}">{gal}</div></div>'
+    out += f'<div class="dlg-body" data-rv style="--rd:1"><div class="dlg-text">{txt}</div><div class="gallery{" duo" if duo else ""}">{gal}</div></div>'
     return out
 
 
@@ -116,6 +116,12 @@ PAGE_JS = """<script src="../assets/art.js"></script>
   document.addEventListener("keydown", function (e) { if (e.key === "Escape") setMenu(false); });
   var header = document.getElementById("header"), lastY = window.scrollY;
   window.addEventListener("scroll", function () { var y = window.scrollY; header.classList.toggle("is-hidden", y > lastY && y > 160); lastY = y; }, { passive: true });
+
+  if ("IntersectionObserver" in window && !matchMedia("(prefers-reduced-motion: reduce)").matches) {
+    var vh = window.innerHeight;
+    var io = new IntersectionObserver(function (es) { es.forEach(function (en) { if (en.isIntersecting) { en.target.classList.add("rv-in"); en.target.classList.remove("rv-armed"); io.unobserve(en.target); } }); }, { rootMargin: "0px 0px -8% 0px", threshold: 0.05 });
+    $$("[data-rv]").forEach(function (n) { if (n.getBoundingClientRect().top > vh) { n.classList.add("rv-armed"); io.observe(n); } });
+  }
 })();
 </script>"""
 
@@ -194,14 +200,14 @@ def card_meta(c, with_tags):
     return f'<div class="card-meta"><span class="client">{h(c["client"])}</span>{year}{tags}</div>'
 
 
-def card(c):
+def card(c, n=0):
     title = f'<h3 class="card-title">{h(c["title"])} {ARROW_UR}</h3>'
     href = f'work/{h(c["id"])}.html'
     if c.get("featured"):
         tags = "".join(f"<li>{h(t)}</li>" for t in c.get("tags", []))
-        return (f'<a class="card wide" href="{href}">{media(c)}<div class="card-body">{card_meta(c, False)}{title}'
+        return (f'<a class="card wide" href="{href}" data-rv style="--rd:{n % 3}">{media(c)}<div class="card-body">{card_meta(c, False)}{title}'
                 f'<p class="card-sum">{h(c["sum"])}</p><ul class="card-meta tags" aria-label="Tags">{tags}</ul></div></a>')
-    return f'<a class="card" href="{href}">{media(c)}{card_meta(c, True)}{title}<p class="card-sum">{h(c["sum"])}</p></a>'
+    return f'<a class="card" href="{href}" data-rv style="--rd:{n % 3}">{media(c)}{card_meta(c, True)}{title}<p class="card-sum">{h(c["sum"])}</p></a>'
 
 
 WORK_JS = """<script src="assets/art.js"></script>
@@ -237,6 +243,12 @@ WORK_JS = """<script src="assets/art.js"></script>
   document.addEventListener("keydown", function (e) { if (e.key === "Escape") setMenu(false); });
   var header = document.getElementById("header"), lastY = window.scrollY;
   window.addEventListener("scroll", function () { var y = window.scrollY; header.classList.toggle("is-hidden", y > lastY && y > 160); lastY = y; }, { passive: true });
+
+  if ("IntersectionObserver" in window && !matchMedia("(prefers-reduced-motion: reduce)").matches) {
+    var vh = window.innerHeight;
+    var io = new IntersectionObserver(function (es) { es.forEach(function (en) { if (en.isIntersecting) { en.target.classList.add("rv-in"); en.target.classList.remove("rv-armed"); io.unobserve(en.target); } }); }, { rootMargin: "0px 0px -8% 0px", threshold: 0.05 });
+    $$("[data-rv]").forEach(function (n) { if (n.getBoundingClientRect().top > vh) { n.classList.add("rv-armed"); io.observe(n); } });
+  }
 })();
 </script>"""
 
@@ -247,9 +259,9 @@ def work_page():
         lst = [c for c in CASES if c["g"] == g["id"]]
         label = f'<b>0{gi + 1}</b> · {len(lst)} {"project" if len(lst) == 1 else "projects"}'
         groups.append(
-            f'<div class="case-group" data-group="{h(g["id"])}" id="dir-{h(g["id"])}"><div class="case-group-head">'
+            f'<div class="case-group" data-group="{h(g["id"])}" id="dir-{h(g["id"])}"><div class="case-group-head" data-rv>'
             f'<p class="label">{label}</p><h2>{h(g["title"])}</h2><p>{h(g["desc"])}</p></div>'
-            f'<div class="cards cases{" compact" if g["id"] == "ai" else ""}">{"".join(card(c) for c in lst)}</div></div>')
+            f'<div class="cards cases{" compact" if g["id"] == "ai" else ""}">{"".join(card(c, n) for n, c in enumerate(lst))}</div></div>')
     entries = [("all", "All", len(CASES))] + [(g["id"], g["title"], sum(1 for c in CASES if c["g"] == g["id"])) for g in data["groups"]]
     filters = "".join(
         f'<li><button type="button" data-f="{h(fid)}" aria-pressed="{"true" if k == 0 else "false"}">{h(name)} <span>{n}</span></button></li>'
@@ -273,11 +285,11 @@ def work_page():
 <main id="main" class="work-page">
   <section id="work" aria-labelledby="workTitle">
     <div class="wrap">
-      <div class="sec-head"><p class="label">Our work</p><p class="label action">{len(CASES)} projects · {len(data["groups"])} directions</p></div>
+      <div class="sec-head" data-rv><p class="label">Our work</p><p class="label action">{len(CASES)} projects · {len(data["groups"])} directions</p></div>
       <div class="grid">
-        <div class="work-intro"><h1 class="h2" id="workTitle">Evidence, made visible. Built for the people who decide.</h1></div>
-        <p class="work-note">Case studies across five directions: from live BI systems and executive decks to maps, brand platforms and AI-built tools.</p>
-        <ul class="filters" id="caseFilters" aria-label="Filter projects by direction">{filters}</ul>
+        <div class="work-intro" data-rv><h1 class="h2" id="workTitle">Evidence, made visible. Built for the people who decide.</h1></div>
+        <p class="work-note" data-rv>Case studies across five directions: from live BI systems and executive decks to maps, brand platforms and AI-built tools.</p>
+        <ul class="filters" id="caseFilters" aria-label="Filter projects by direction" data-rv>{filters}</ul>
         <div class="case-groups" id="caseGroups">{"".join(groups)}</div>
       </div>
     </div>

@@ -50,10 +50,10 @@
     </button>
   </div>
   <ol>
-    <li style="--i:0"><a href="../index.html#services"><span>01</span>Services</a></li>
-    <li style="--i:1"><a href="../index.html#studio"><span>02</span>Studio</a></li>
-    <li style="--i:2"><a href="../work.html"><span>03</span>Our work</a></li>
-    <li style="--i:3"><a href="../index.html#insights"><span>04</span>Insights</a></li>
+    <li style="--i:0"><a href="../index.html#services">Services</a></li>
+    <li style="--i:1"><a href="../index.html#studio">Studio</a></li>
+    <li style="--i:2"><a href="../work.html">Our work</a></li>
+    <li style="--i:3"><a href="../index.html#insights">Insights</a></li>
   </ol>
   <a class="btn btn-primary" href="../index.html#estimate" data-estimate>Estimate project scope</a>
 </div>
@@ -61,7 +61,7 @@
 <main id="main" class="case-page">
   <div class="wrap">
     <p class="label case-crumb"><a href="../work.html">Our work</a> / <a href="../work.html#dir-ai">AI-built tools &amp; apps</a> / <b>Global infrastructure assets map</b></p>
-    <div class="dlg-head"><div><p class="label"><b>Interactive map</b></p><h1 id="caseTitle">Global infrastructure assets map</h1><p class="lead">A global infrastructure map showing the company&#x27;s key assets.</p></div><dl class="dlg-facts"><dt>Client</dt><dd>AI-built tool</dd><dt>Direction</dt><dd>AI-built tools &amp; apps</dd><dt>Format</dt><dd>Interactive map</dd><dt>Tags</dt><dd>Maps · AI-assisted</dd></dl></div><div class="dlg-body"><div class="dlg-text"><div><h3>Materials</h3><ul class="res-links"><li><a href="https://secure-res.craft.do/v2/ZQwGUsi5bYHT9fCxCyuVt4detuK5cY1xNo1iJ1Zph5VnhwrvSYJgCkYXmAUm5Uzt8hAjnK3CWqy3fM8qZy9ffgGnD3jQKzUugwD3yuDKqtJZwiQVJE5T4AuvaFAW9jo7d27jhM7u55iBH5XjaQ27gy3aNtFEnJKVXAsaurbZD4iKqbJD2nvaYPYWfcNvPcPb4fc373jzp9LSFeH3FnjZWvCrPdoq86MaaTCR1xpLUKkk4vcpwYVDEzgs7SQLw4ufUucw8VNjirVnzMRm5R8xJpAfvpYGyeswZLTXAEPDyfR7Tb47EG/Assets%20map.html" target="_blank" rel="noopener">Open tool (HTML) <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" aria-hidden="true"><path d="M7 17L17 7M8 7h9v9"/></svg></a></li></ul></div></div><div class="gallery"><figure class="art"><svg data-art="network" viewBox="0 0 640 360" preserveAspectRatio="xMidYMid slice" role="img" aria-label="Global infrastructure assets map — illustration"></svg></figure></div></div>
+    <div class="dlg-head" data-rv><div><p class="label"><b>Interactive map</b></p><h1 id="caseTitle">Global infrastructure assets map</h1><p class="lead">A global infrastructure map showing the company&#x27;s key assets.</p></div><dl class="dlg-facts"><dt>Client</dt><dd>AI-built tool</dd><dt>Direction</dt><dd>AI-built tools &amp; apps</dd><dt>Format</dt><dd>Interactive map</dd><dt>Tags</dt><dd>Maps · AI-assisted</dd></dl></div><div class="dlg-body" data-rv style="--rd:1"><div class="dlg-text"><div><h3>Materials</h3><ul class="res-links"><li><a href="https://secure-res.craft.do/v2/ZQwGUsi5bYHT9fCxCyuVt4detuK5cY1xNo1iJ1Zph5VnhwrvSYJgCkYXmAUm5Uzt8hAjnK3CWqy3fM8qZy9ffgGnD3jQKzUugwD3yuDKqtJZwiQVJE5T4AuvaFAW9jo7d27jhM7u55iBH5XjaQ27gy3aNtFEnJKVXAsaurbZD4iKqbJD2nvaYPYWfcNvPcPb4fc373jzp9LSFeH3FnjZWvCrPdoq86MaaTCR1xpLUKkk4vcpwYVDEzgs7SQLw4ufUucw8VNjirVnzMRm5R8xJpAfvpYGyeswZLTXAEPDyfR7Tb47EG/Assets%20map.html" target="_blank" rel="noopener">Open tool (HTML) <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" aria-hidden="true"><path d="M7 17L17 7M8 7h9v9"/></svg></a></li></ul></div></div><div class="gallery"><figure class="art"><svg data-art="network" viewBox="0 0 640 360" preserveAspectRatio="xMidYMid slice" role="img" aria-label="Global infrastructure assets map — illustration"></svg></figure></div></div>
     <nav class="case-pager" aria-label="Projects"><a href="branding-agency.html" rel="prev"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 12H4M10 6l-6 6 6 6"/></svg><span><small>Previous</small>Branding agency: website &amp; social stories</span></a><a href="ev-dashboard.html" rel="next"><span><small>Next</small>Electric-vehicle dashboard</span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 12h16M14 6l6 6-6 6"/></svg></a></nav>
   </div>
 </main>
@@ -112,6 +112,12 @@
   document.addEventListener("keydown", function (e) { if (e.key === "Escape") setMenu(false); });
   var header = document.getElementById("header"), lastY = window.scrollY;
   window.addEventListener("scroll", function () { var y = window.scrollY; header.classList.toggle("is-hidden", y > lastY && y > 160); lastY = y; }, { passive: true });
+
+  if ("IntersectionObserver" in window && !matchMedia("(prefers-reduced-motion: reduce)").matches) {
+    var vh = window.innerHeight;
+    var io = new IntersectionObserver(function (es) { es.forEach(function (en) { if (en.isIntersecting) { en.target.classList.add("rv-in"); en.target.classList.remove("rv-armed"); io.unobserve(en.target); } }); }, { rootMargin: "0px 0px -8% 0px", threshold: 0.05 });
+    $$("[data-rv]").forEach(function (n) { if (n.getBoundingClientRect().top > vh) { n.classList.add("rv-armed"); io.observe(n); } });
+  }
 })();
 </script>
 </body>

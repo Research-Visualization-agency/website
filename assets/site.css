@@ -83,7 +83,7 @@ img, svg, canvas { max-width: 100%; }
 .logo .mark { position: relative; display: inline-block; white-space: nowrap; line-height: 1; }
 .logo .mark-i { position: relative; display: inline-block; line-height: 1; color: inherit; }
 /* hice mark: the tittle of the dotless ı is a green dot that hovers above it */
-.logo .mark-i i { position: absolute; left: 50%; top: -.0135em; width: .127em; height: .127em; margin-left: -.0635em; border-radius: 50%;
+.logo .mark-i i { position: absolute; left: 50%; top: -.0135em; width: .127em; height: .127em; margin-left: -.116em; border-radius: 50%;
   background: var(--mark-dot); box-shadow: 0 0 .14em rgba(15,205,115,.55), 0 0 .03em rgba(15,205,115,.8);
   animation: markFloat 3s infinite; }
 @keyframes markFloat {
