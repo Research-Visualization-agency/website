@@ -144,7 +144,7 @@ def page(c, i):
     nav = (f'<nav class="case-pager" aria-label="Projects">'
            f'<a href="{h(prev["id"])}.html" rel="prev">{ARROW_L}<span><small>Previous</small>{h(prev["title"])}</span></a>'
            f'<a href="{h(nxt["id"])}.html" rel="next"><span><small>Next</small>{h(nxt["title"])}</span>{ARROW_R}</a></nav>')
-    crumb = (f'<p class="label case-crumb"><a href="../index.html#work">Work</a> / '
+    crumb = (f'<p class="label case-crumb"><a href="../index.html#work">Our work</a> / '
              f'<a href="../index.html#dir-{h(g["id"])}">{h(g["title"])}</a> / <b>{h(c["title"])}</b></p>')
     return f"""<!doctype html>
 <html lang="en">

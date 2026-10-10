@@ -14,9 +14,9 @@
   <div class="wrap header-in">
     <a class="logo" href="#top" aria-label="hice — home"><span class="mark" aria-hidden="true">h<span class="mark-i">&#305;<i></i></span>ce</span></a>
     <nav class="nav" aria-label="Primary">
-      <a href="#work">Work</a>
       <a href="#services">Services</a>
       <a href="#studio">Studio</a>
+      <a href="#work">Our work</a>
       <a href="#insights">Insights</a>
     </nav>
     <div class="header-cta">
@@ -36,9 +36,9 @@
     </button>
   </div>
   <ol>
-    <li style="--i:0"><a href="#work"><span>01</span>Work</a></li>
-    <li style="--i:1"><a href="#services"><span>02</span>Services</a></li>
-    <li style="--i:2"><a href="#studio"><span>03</span>Studio</a></li>
+    <li style="--i:0"><a href="#services"><span>01</span>Services</a></li>
+    <li style="--i:1"><a href="#studio"><span>02</span>Studio</a></li>
+    <li style="--i:2"><a href="#work"><span>03</span>Our work</a></li>
     <li style="--i:3"><a href="#insights"><span>04</span>Insights</a></li>
   </ol>
   <a class="btn btn-primary" href="#estimate" data-estimate>Estimate project scope</a>
@@ -58,7 +58,7 @@
         <div class="hero-actions">
           <a class="btn btn-primary" href="#estimate" data-estimate>Estimate project scope
             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 12h15M13 6l6 6-6 6"/></svg></a>
-          <a class="btn btn-secondary" href="#work">See selected work</a>
+          <a class="btn btn-secondary" href="#work">See our work</a>
         </div>
         <div class="hero-meta">
           <div><span class="label"><b>01</b> Research</span><strong>Sourcing, audits, original datasets</strong></div>
@@ -78,14 +78,15 @@
     </div>
   </div>
 
-  <section class="section" id="work" aria-labelledby="workTitle">
+  <section class="section" id="services" aria-labelledby="svcTitle">
     <div class="wrap">
-      <div class="sec-head" data-rv><p class="label"><b>01</b> · Selected work</p><p class="label action" id="caseCount"></p></div>
+      <div class="sec-head" data-rv><p class="label"><b>01</b> · Services</p></div>
       <div class="grid">
-        <div class="work-intro" data-rv><h2 class="h2" id="workTitle">Evidence, made visible. Built for the people who decide.</h2></div>
-        <p class="work-note" data-rv>Case studies across five directions: from live BI systems and executive decks to maps, brand platforms and AI-built tools.</p>
-        <ul class="filters" id="caseFilters" aria-label="Filter projects by direction" data-rv></ul>
-        <div class="case-groups" id="caseGroups"></div>
+        <div class="svc-intro" data-rv>
+          <h2 class="h2" id="svcTitle">From question to published evidence.</h2>
+          <p class="lead">Engage us for one stage or the whole pipeline. Every project is led by an analyst and a designer from day one.</p>
+        </div>
+        <div class="svc-list" id="acc" data-rv style="--rd:1"></div>
       </div>
     </div>
   </section>
@@ -124,15 +125,14 @@
     </div>
   </section>
 
-  <section class="section" id="services" aria-labelledby="svcTitle">
+  <section class="section" id="work" aria-labelledby="workTitle">
     <div class="wrap">
-      <div class="sec-head" data-rv><p class="label"><b>03</b> · Services</p></div>
+      <div class="sec-head" data-rv><p class="label"><b>03</b> · Our work</p><p class="label action" id="caseCount"></p></div>
       <div class="grid">
-        <div class="svc-intro" data-rv>
-          <h2 class="h2" id="svcTitle">From question to published evidence.</h2>
-          <p class="lead">Engage us for one stage or the whole pipeline. Every project is led by an analyst and a designer from day one.</p>
-        </div>
-        <div class="svc-list" id="acc" data-rv style="--rd:1"></div>
+        <div class="work-intro" data-rv><h2 class="h2" id="workTitle">Evidence, made visible. Built for the people who decide.</h2></div>
+        <p class="work-note" data-rv>Case studies across five directions: from live BI systems and executive decks to maps, brand platforms and AI-built tools.</p>
+        <ul class="filters" id="caseFilters" aria-label="Filter projects by direction" data-rv></ul>
+        <div class="case-groups" id="caseGroups"></div>
       </div>
     </div>
   </section>
@@ -180,7 +180,7 @@
       </form>
     </div>
     <nav class="foot-grid" aria-label="Footer">
-      <div><p class="label">Work</p><ul><li><a href="#work" data-filter="all">All projects</a></li><li><a href="#work" data-filter="dashboards">Dashboards</a></li><li><a href="#work" data-filter="presentations">Presentations</a></li><li><a href="#work" data-filter="dataviz">Data viz &amp; maps</a></li><li><a href="#work" data-filter="brand">Brand &amp; web</a></li><li><a href="#work" data-filter="ai">AI tools</a></li></ul></div>
+      <div><p class="label">Our work</p><ul><li><a href="#work" data-filter="all">All projects</a></li><li><a href="#work" data-filter="dashboards">Dashboards</a></li><li><a href="#work" data-filter="presentations">Presentations</a></li><li><a href="#work" data-filter="dataviz">Data viz &amp; maps</a></li><li><a href="#work" data-filter="brand">Brand &amp; web</a></li><li><a href="#work" data-filter="ai">AI tools</a></li></ul></div>
       <div><p class="label">Services</p><ul><li><a href="#services">Research</a></li><li><a href="#services">Consulting</a></li><li><a href="#services">Visual strategy</a></li><li><a href="#services">Production</a></li></ul></div>
       <div><p class="label">Studio</p><ul><li><a href="#studio">Approach</a></li><li><a href="#studio">Team</a></li><li><a href="#studio">Careers</a></li><li><a href="#insights">Journal</a></li></ul></div>
       <div><p class="label">Contact</p><ul><li><a href="#estimate">Estimate scope</a></li><li><a href="#estimate">New business</a></li><li><a href="#estimate">Press</a></li></ul></div>
