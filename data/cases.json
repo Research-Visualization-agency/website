@@ -1,0 +1,1195 @@
+{
+ "groups": [
+  {
+   "id": "dashboards",
+   "title": "Dashboards & information systems",
+   "desc": "Monitoring and BI systems that consolidate operational data into one live view for managers and analysts."
+  },
+  {
+   "id": "presentations",
+   "title": "Presentations & reports",
+   "desc": "Research findings, analytics and corporate stories structured into decks that executives, partners and conference audiences can follow."
+  },
+  {
+   "id": "dataviz",
+   "title": "Data visualisation & maps",
+   "desc": "Charts, infographics and geographic maps on energy, commodities and trade."
+  },
+  {
+   "id": "brand",
+   "title": "Brand, web & visual communication",
+   "desc": "Identity systems, websites, landing pages and social content tied to measurable business results."
+  },
+  {
+   "id": "ai",
+   "title": "AI-built tools & apps",
+   "desc": "Interactive data tools prototyped and shipped with AI coding assistants."
+  }
+ ],
+ "cases": [
+  {
+   "id": "control-tower",
+   "g": "dashboards",
+   "title": "Control Tower",
+   "client": "Natural-resources group",
+   "badge": "BI system",
+   "tags": [
+    "Supply chain",
+    "BI",
+    "UX/UI"
+   ],
+   "sum": "A centralised monitoring and business-intelligence system giving real-time visibility and control over the entire supply chain.",
+   "art": "area",
+   "sections": [
+    [
+     "About the project",
+     [
+      "An analytical system for monitoring and business intelligence.",
+      "The idea was to build a centralised system that provides real-time visibility and control over the entire supply chain."
+     ]
+    ],
+    [
+     "My role",
+     [
+      "As project lead I was responsible for visual design, UX/UI, testing and roll-out of the system. My responsibilities included:"
+     ],
+     [
+      "Working with cross-functional teams to define interface and functional requirements.",
+      "Selecting the right technology for data analysis and visualisation.",
+      "Evaluating software and technical options for data integration, with a focus on fast deployment, ease of use and flexible UI design.",
+      "Building a prototype: a monitoring dashboard showing real-time KPI visualisation for two production units.",
+      "Design control and functional checks during testing.",
+      "Writing user guides and training staff to use the new system effectively."
+     ],
+     "ol"
+    ],
+    [
+     "Results",
+     [
+      "The tool extended monitoring and analysis across key performance metrics:"
+     ],
+     [
+      "live data on finished-goods warehouse utilisation at plants in every region of the company;",
+      "assessment of finished-goods sales across all business lines;",
+      "analysis of finished-goods stock levels in warehouses."
+     ]
+    ]
+   ],
+   "featured": true,
+   "cover": "assets/cases/control-tower-02.webp",
+   "coverAr": 1.58,
+   "img": [
+    [
+     "assets/cases/control-tower-01.webp",
+     1.6644
+    ],
+    [
+     "assets/cases/control-tower-02.webp",
+     1.5789
+    ],
+    [
+     "assets/cases/control-tower-03.webp",
+     1.5769
+    ],
+    [
+     "assets/cases/control-tower-04.webp",
+     1.7778
+    ],
+    [
+     "assets/cases/control-tower-05.webp",
+     1.7778
+    ],
+    [
+     "assets/cases/control-tower-06.webp",
+     1.7778
+    ],
+    [
+     "assets/cases/control-tower-07.webp",
+     1.7778
+    ]
+   ],
+   "files": [
+    [
+     "Project presentation (PDF)",
+     "https://secure-res.craft.do/v2/ZQwGUsi5bYHT9fCxCyuVt4detuK5cY1xNo1iJ1Zph5VnhwrvSYJgCkYXmAUm5Uzt8hAjnK3CWqy3fM8qZy9ffgGnD3jQKzUugwD3yuDKqtJZwiQVJE5T4AuvaFAW9jo7d27jhM7u55iBH5XjaQ27gy3aPHDQPLFMZCAoroBe9dGoADsRjyUrxP9cPRLmH8aYKufaXoNmHjHHzxRXMg1dx6cYgfG4ioYwFmazJw2YAy6aBx8r5YKGL6AFTw44Cvx7D9ujRCMzzKrteuRWnJwLHS4wAD3uS1Hu2uKqgBquzj1ihvBJq7/%20_C.pdf"
+    ]
+   ]
+  },
+  {
+   "id": "stocks-in-ports",
+   "g": "dashboards",
+   "title": "Stocks in Ports",
+   "client": "Logistics",
+   "badge": "Dashboard",
+   "tags": [
+    "Logistics",
+    "Data consolidation"
+   ],
+   "sum": "An analytical dashboard giving a complete, accurate picture of inventory held in ports for better planning and resource management.",
+   "art": "bars",
+   "sections": [
+    [
+     "Goal",
+     [
+      "To create an information and analytics tool – a dashboard – that gives a fuller and more accurate picture of inventory in ports, enabling more effective planning and resource management."
+     ]
+    ],
+    [
+     "Plan",
+     [
+      "The project began with collecting and consolidating data from every work site: gathering data from multiple sources, processing it and bringing it into a single format."
+     ]
+    ],
+    [
+     "Result",
+     [
+      "The consolidated data improved the quality of analytics, sped up business-intelligence processes and delivered insights for strategic planning in logistics and supply-chain management, strengthening the company's competitiveness."
+     ]
+    ],
+    [
+     "Project blueprint",
+     []
+    ]
+   ],
+   "featured": false,
+   "cover": "assets/cases/stocks-in-ports-01.webp",
+   "coverAr": 0.49,
+   "img": [
+    [
+     "assets/cases/stocks-in-ports-01.webp",
+     0.4854
+    ]
+   ]
+  },
+  {
+   "id": "fuel-flows",
+   "g": "dashboards",
+   "title": "Fuel flows to power systems",
+   "client": "Energy",
+   "badge": "Automation + viz",
+   "tags": [
+    "Energy",
+    "Automation"
+   ],
+   "sum": "Automated tracking and visualisation of how fuel moves to, and is consumed by, the company's power systems.",
+   "art": "network",
+   "sections": [
+    [
+     "Objective",
+     [
+      "Automate and visualise data on the movement and use of fuel across the company's energy systems."
+     ]
+    ],
+    [
+     "Process",
+     [
+      "Data collection, processing and analysis, then integration with the company's existing resource-management systems – providing full transparency and control at every level."
+     ]
+    ],
+    [
+     "Result",
+     [
+      "Automation and visualisation made the company's energy systems more efficient, improved resource management and reduced operational risk."
+     ]
+    ],
+    [
+     "Implementation scheme",
+     []
+    ]
+   ],
+   "featured": false,
+   "cover": "assets/cases/fuel-flows-01.webp",
+   "coverAr": 0.85,
+   "img": [
+    [
+     "assets/cases/fuel-flows-01.webp",
+     0.8511
+    ]
+   ]
+  },
+  {
+   "id": "finished-goods",
+   "g": "dashboards",
+   "title": "Finished-goods inventory at plants",
+   "client": "Manufacturing",
+   "badge": "Dashboard",
+   "tags": [
+    "Manufacturing",
+    "Inventory"
+   ],
+   "sum": "Data architecture and dashboard for tracking finished-goods stock across the company's production sites.",
+   "art": "bars",
+   "sections": [
+    [
+     "Overview",
+     [
+      "Data-flow scheme and monitoring dashboard for finished-goods inventory at the company's plants."
+     ]
+    ]
+   ],
+   "featured": false,
+   "cover": "assets/cases/finished-goods-02.webp",
+   "coverAr": 1.66,
+   "img": [
+    [
+     "assets/cases/finished-goods-01.webp",
+     0.8511
+    ],
+    [
+     "assets/cases/finished-goods-02.webp",
+     1.6644
+    ]
+   ]
+  },
+  {
+   "id": "ct-deck",
+   "g": "presentations",
+   "title": "Control Tower: results & roadmap",
+   "client": "Natural-resources group",
+   "badge": "Executive deck",
+   "tags": [
+    "Supply chain",
+    "Strategy"
+   ],
+   "sum": "Executive presentation of the Control Tower reporting system rolled out across the supply chain, and its 2025–2026 development plan.",
+   "art": "lines",
+   "sections": [
+    [
+     "Overview",
+     [
+      "A presentation summarising the supply-chain reporting system implemented in 2024, the indicators brought into a single reporting system, and the roadmap for its further development."
+     ]
+    ]
+   ],
+   "featured": false,
+   "cover": "assets/cases/ct-deck-01.webp",
+   "coverAr": 1.88,
+   "img": [
+    [
+     "assets/cases/ct-deck-01.webp",
+     1.8838
+    ],
+    [
+     "assets/cases/ct-deck-02.webp",
+     1.9481
+    ],
+    [
+     "assets/cases/ct-deck-03.webp",
+     1.8927
+    ]
+   ]
+  },
+  {
+   "id": "device-company",
+   "g": "presentations",
+   "title": "Packaging research for a consumer-device brand",
+   "client": "Device company",
+   "badge": "Conference talk",
+   "tags": [
+    "Research",
+    "Consumer"
+   ],
+   "sum": "A conference presentation of packaging research: goals, methodology, target audience and conclusions.",
+   "art": "bars",
+   "sections": [
+    [
+     "Brief",
+     [],
+     [
+      "Design a presentation for a conference talk.",
+      "The deck had to present the research findings: goals, method, target audience and conclusions."
+     ]
+    ]
+   ],
+   "featured": false,
+   "cover": "assets/cases/device-company-01.webp",
+   "coverAr": 1.78,
+   "img": [
+    [
+     "assets/cases/device-company-01.webp",
+     1.7778
+    ],
+    [
+     "assets/cases/device-company-02.webp",
+     1.7778
+    ],
+    [
+     "assets/cases/device-company-03.webp",
+     1.7778
+    ],
+    [
+     "assets/cases/device-company-04.webp",
+     1.7778
+    ],
+    [
+     "assets/cases/device-company-05.webp",
+     1.7778
+    ]
+   ]
+  },
+  {
+   "id": "microelectronics",
+   "g": "presentations",
+   "title": "Slide redesign for a microelectronics company",
+   "client": "Microelectronics",
+   "badge": "Before / after",
+   "tags": [
+    "Redesign",
+    "B2B"
+   ],
+   "sum": "Redesign of corporate slides to reflect a modern company, follow the brand book and fit all master-deck content onto a single slide.",
+   "art": "bars",
+   "sections": [
+    [
+     "Brief",
+     [
+      "Redesign the company's existing slides."
+     ],
+     [
+      "The deck had to reflect the company's modern approach and comply with its brand book, while staying informative and fitting all the information from the master version onto one slide.",
+      "Format: a presentation emailed to partners and clients."
+     ]
+    ],
+    [
+     "Before / after",
+     [
+      "The first two slides show the original version; the last two show the redesign."
+     ]
+    ]
+   ],
+   "featured": false,
+   "cover": "assets/cases/microelectronics-03.webp",
+   "coverAr": 1.78,
+   "img": [
+    [
+     "assets/cases/microelectronics-01.webp",
+     1.7778
+    ],
+    [
+     "assets/cases/microelectronics-02.webp",
+     1.7778
+    ],
+    [
+     "assets/cases/microelectronics-03.webp",
+     1.7778
+    ],
+    [
+     "assets/cases/microelectronics-04.webp",
+     1.7778
+    ]
+   ]
+  },
+  {
+   "id": "bank-pilot",
+   "g": "presentations",
+   "title": "Bank pilot: results for top management",
+   "client": "Bank",
+   "badge": "Data analysis",
+   "tags": [
+    "Finance",
+    "Analytics"
+   ],
+   "sum": "Comprehensive analysis of a bank's pilot project, presented to the bank's top management.",
+   "art": "area",
+   "sections": [
+    [
+     "Brief",
+     [
+      "Carry out a comprehensive analysis of the results of the bank's pilot project and present them to top management."
+     ]
+    ],
+    [
+     "What it took",
+     [],
+     [
+      "Process the month-by-month analytical results since the start of the year.",
+      "Consolidate each month's data, grouped by client category and product type.",
+      "Identify the most effective client-acquisition channels within the pilot.",
+      "Visualise the data and surface the key insights.",
+      "Build the storyline and design the presentation."
+     ]
+    ]
+   ],
+   "featured": false,
+   "cover": "assets/cases/bank-pilot-02.webp",
+   "coverAr": 1.78,
+   "img": [
+    [
+     "assets/cases/bank-pilot-01.webp",
+     1.7778
+    ],
+    [
+     "assets/cases/bank-pilot-02.webp",
+     1.7778
+    ],
+    [
+     "assets/cases/bank-pilot-03.webp",
+     1.7778
+    ],
+    [
+     "assets/cases/bank-pilot-04.webp",
+     1.7778
+    ]
+   ]
+  },
+  {
+   "id": "otp-bank",
+   "g": "presentations",
+   "title": "OTP Bank company presentation",
+   "client": "OTP Bank",
+   "badge": "Corporate deck",
+   "tags": [
+    "Finance",
+    "English"
+   ],
+   "sum": "An English-language company presentation promoting the bank and its products to an international audience.",
+   "art": "lines",
+   "sections": [
+    [
+     "Brief",
+     [],
+     [
+      "Create an English-language presentation about the company: its history and main achievements, clearly organised for an international audience.",
+      "Illustrate the key products and services, highlighting their unique features and advantages over competitors.",
+      "Make the deck a strong tool for promoting the company and its offer internationally, emphasising its strengths and unique capabilities."
+     ],
+     "ol"
+    ]
+   ],
+   "featured": false,
+   "files": [
+    [
+     "Presentation (PDF)",
+     "https://secure-res.craft.do/v2/ZQwGUsi5bYHT9fCxCyuVt4detuK5cY1xNo1iJ1Zph5VnhwrvSYJgCkYXmAUm5Uzt8hAjnK3CWqy3fM8qZy9ffgGnD3jQKzUugwD3yuDKqtJZwiQVJE5T4AuvaFAW9jo7d27jhM7u55iBH5XjaQ27gy3aPXChvVR9GGwnZFPLNVBLGvENLJ3nVqWJ6JtuYp2aMDT7nxx76Uwe3GRzEf2sAUyNg8xCNsXNeoiEZBSWsQythrkZwZQNTAr3fQJz7jih8TSNJq9d5s1Yo9HiQr94EFhfKnhfVMAYHFGqPAqqfE3XaSToYq/OTP.pdf"
+    ]
+   ]
+  },
+  {
+   "id": "aved",
+   "g": "presentations",
+   "title": "AVED company profile",
+   "client": "AVED",
+   "badge": "Corporate deck",
+   "tags": [
+    "Corporate"
+   ],
+   "sum": "A company presentation covering every one of AVED's business lines in detail.",
+   "art": "network",
+   "sections": [
+    [
+     "Brief",
+     [
+      "Cover all of the company's areas of activity in detail."
+     ]
+    ]
+   ],
+   "featured": false,
+   "files": [
+    [
+     "Presentation (PDF)",
+     "https://secure-res.craft.do/v2/ZQwGUsi5bYHT9fCxCyuVt4detuK5cY1xNo1iJ1Zph5VnhwrvSYJgCkYXmAUm5Uzt8hAjnK3CWqy3fM8qZy9ffgGnD3jQKzUugwD3yuDKqtJZwiQVJE5T4AuvaFAW9jo7d27jhM7u55iBH5XjaQ27gy3aPRN14wG37BBf8js4Br5Lkq1bwNG88oKTiDNZjDdHeKcbvUDimJZ8bbpP9dCtBYSytcs5uY7knjoju1XWZkD984CMG5v94btbcNw86tNUvWrPsczLJdFFnfZ6jBvhHda5BUkugwEDnax73KFsjajaLpZjzx/AVED_FL.pdf"
+    ]
+   ]
+  },
+  {
+   "id": "smm-galaxy",
+   "g": "presentations",
+   "title": "SMM Galaxy services deck",
+   "client": "SMM Galaxy (agency)",
+   "badge": "Sales deck",
+   "tags": [
+    "Marketing",
+    "Agency"
+   ],
+   "sum": "A presentation introducing clients to the full range of the agency's social-media services.",
+   "art": "contours",
+   "sections": [
+    [
+     "Brief",
+     [
+      "Prepare a presentation on the agency's SMM practice to introduce clients to the wide range of services and capabilities in this area."
+     ]
+    ]
+   ],
+   "featured": false,
+   "files": [
+    [
+     "Presentation (PDF)",
+     "https://secure-res.craft.do/v2/ZQwGUsi5bYHT9fCxCyuVt4detuK5cY1xNo1iJ1Zph5VnhwrvSYJgCkYXmAUm5Uzt8hAjnK3CWqy3fM8qZy9ffgGnD3jQKzUugwD3yuDKqtJZwiQVJE5T4AuvaFAW9jo7d27jhM7u55iBH5XjaQ27gy3aPL6mEHcNhireSVx8HoAn5nai1SjWAUbKLRauYYwcazWd8LKDeo4pTigHPbd6kvrTrvwK4Y6mbX1S2b7pMPk3dtB8mioq6sbp7forkcN8u5kTHGbGEAYCxVus1KvE1b6hqQzGatWMVWQKy1kZWUijCCbgvA/SMM%20GALAXY.pdf"
+    ]
+   ]
+  },
+  {
+   "id": "project-5-100",
+   "g": "presentations",
+   "title": "Project 5-100: final results",
+   "client": "Higher-education programme",
+   "badge": "Policy evaluation",
+   "tags": [
+    "Education",
+    "Policy"
+   ],
+   "sum": "Final results presentation for Project 5-100, the national programme to raise the global competitiveness of Russian universities.",
+   "art": "bars",
+   "sections": [
+    [
+     "Brief",
+     [
+      "A final presentation of the results of Project 5-100."
+     ]
+    ],
+    [
+     "Context",
+     [
+      "Project 5-100 was an important step in the development of Russian higher education, even though its ultimate goals were not reached. It raised universities' awareness of international standards and of the need to improve the quality of teaching and research."
+     ]
+    ]
+   ],
+   "featured": false,
+   "files": [
+    [
+     "Presentation (PDF)",
+     "https://secure-res.craft.do/v2/ZQwGUsi5bYHT9fCxCyuVt4detuK5cY1xNo1iJ1Zph5VnhwrvSYJgCkYXmAUm5Uzt8hAjnK3CWqy3fM8qZy9ffgGnD3jQKzUugwD3yuDKqtJZwiQVJE5T4AuvaFAW9jo7d27jhM7u55iBH5XjaQ27gy3aP5Bp8xB38QoWdRq315ECZwi8R8qurLbj6WAGW7ft8Zh2HEeYhxVsZavFbLMN2m4JJwBNtqUc78u32dKTdRr2J6KYJ9oF2ePdvsCvqEce8U9A8oRS7ZskAHqqU9yaWm8MdccNpgpegH4LRpDsbgDQBQKk8Y/%20%205-100.pdf"
+    ]
+   ]
+  },
+  {
+   "id": "dataviz-charts",
+   "g": "dataviz",
+   "title": "Charts & infographics",
+   "client": "Energy & commodities research",
+   "badge": "Data viz",
+   "tags": [
+    "Energy",
+    "Trade",
+    "Infographics"
+   ],
+   "sum": "A selection of charts and infographics: Sankey flows, chord diagrams, beeswarms, streamgraphs and editorial charts on energy, coal and trade.",
+   "art": "lines",
+   "sections": [
+    [
+     "Overview",
+     [
+      "A selection of data-visualisation work for research and editorial use: export flows, industry revenue distributions, clean-energy stock performance, country-level coal trade and energy-mix charts, plus a full company infographic."
+     ]
+    ]
+   ],
+   "featured": true,
+   "cover": "assets/cases/dataviz-charts-02.webp",
+   "coverAr": 1.56,
+   "img": [
+    [
+     "assets/cases/dataviz-charts-01.webp",
+     1.7699
+    ],
+    [
+     "assets/cases/dataviz-charts-02.webp",
+     1.5605
+    ],
+    [
+     "assets/cases/dataviz-charts-03.webp",
+     1.3825
+    ],
+    [
+     "assets/cases/dataviz-charts-04.webp",
+     0.8392
+    ],
+    [
+     "assets/cases/dataviz-charts-05.webp",
+     0.5831
+    ],
+    [
+     "assets/cases/dataviz-charts-06.webp",
+     0.4986
+    ],
+    [
+     "assets/cases/dataviz-charts-07.webp",
+     0.6749
+    ],
+    [
+     "assets/cases/dataviz-charts-08.webp",
+     1.3333
+    ],
+    [
+     "assets/cases/dataviz-charts-09.webp",
+     1.2422
+    ],
+    [
+     "assets/cases/dataviz-charts-10.webp",
+     1.5936
+    ],
+    [
+     "assets/cases/dataviz-charts-11.webp",
+     1.0
+    ],
+    [
+     "assets/cases/dataviz-charts-12.webp",
+     1.5
+    ],
+    [
+     "assets/cases/dataviz-charts-13.webp",
+     1.7778
+    ]
+   ],
+   "files": [
+    [
+     "Company infographic (PDF)",
+     "https://secure-res.craft.do/v2/JfdUMGuYSiChNBPQA1eNufvWkinaHBtPqxssoGZKLbqqz2qAYMNiM3JM9bN9gvE2SSXte3y3jM9MnHgT7hbcRE3dbHhjhiDPvKhZgc4y9iYXW2NneQY92E1hVKHucgGm2Z51FyncjudaY8WgjjZvbJQaVWBKDpJvznhs9KmGGxStS3Ywnhc9VjfFhon94VnHwUxutXZ7fx7S59NowR2SQv1Zbd6v893iydyVLJQ9gU1sxnHM9jSQcoNsvnWDQ85dV2vu8jX7h2pmdZHFZtTPXbvZxoGo5Kgwrt86aiGzzoPDM4BJ5fY9DYiv7CQyyzXEVnMLx4po/Company3_Infograf.pdf"
+    ]
+   ]
+  },
+  {
+   "id": "geo-mapping",
+   "g": "dataviz",
+   "title": "Geo mapping",
+   "client": "Energy & commodities research",
+   "badge": "Maps",
+   "tags": [
+    "Maps",
+    "Energy",
+    "Trade"
+   ],
+   "sum": "Relief maps, trade-flow maps and interactive choropleths – from coal power plants to China's net exports by province.",
+   "art": "contours",
+   "sections": [
+    [
+     "Overview",
+     [
+      "Shaded-relief regional maps, global trade-flow maps and interactive Datawrapper maps."
+     ]
+    ],
+    [
+     "Interactive maps",
+     []
+    ]
+   ],
+   "featured": false,
+   "cover": "assets/cases/geo-mapping-07.webp",
+   "coverAr": 1.18,
+   "img": [
+    [
+     "assets/cases/geo-mapping-01.webp",
+     1.0
+    ],
+    [
+     "assets/cases/geo-mapping-02.webp",
+     0.7835
+    ],
+    [
+     "assets/cases/geo-mapping-03.webp",
+     1.683
+    ],
+    [
+     "assets/cases/geo-mapping-04.webp",
+     1.2903
+    ],
+    [
+     "assets/cases/geo-mapping-05.webp",
+     1.7778
+    ],
+    [
+     "assets/cases/geo-mapping-06.webp",
+     1.7778
+    ],
+    [
+     "assets/cases/geo-mapping-07.webp",
+     1.1811
+    ]
+   ],
+   "links": [
+    [
+     "Coal companies and thermal power plants",
+     "https://datawrapper.dwcdn.net/fDKkE/2/"
+    ],
+    [
+     "China's net exports by province",
+     "https://datawrapper.dwcdn.net/zwiVs/2/"
+    ],
+    [
+     "Installed capacity of India's coal power plants by region, MW",
+     "https://datawrapper.dwcdn.net/otBcE/2/"
+    ],
+    [
+     "Total generation (GWh), 2022",
+     "https://datawrapper.dwcdn.net/kV3w7/3/"
+    ]
+   ]
+  },
+  {
+   "id": "klatz",
+   "g": "brand",
+   "title": "Klatz",
+   "client": "Klatz (oral care)",
+   "year": "2020–2023",
+   "badge": "Identity + web",
+   "tags": [
+    "Branding",
+    "Web",
+    "SMM"
+   ],
+   "sum": "Identity, websites and social media for the oral-care brand Klatz – ~100M ad visits and a route onto major retail shelves.",
+   "art": "bars",
+   "sections": [
+    [
+     "Project",
+     [
+      "Identity, website design and SMM for the oral-care brand Klatz."
+     ]
+    ],
+    [
+     "Role",
+     [
+      "Art direction, brand identity, website and landing-page design, visual guidelines, SMM.",
+      "I created the corporate identity, developed a comprehensive brand guide, designed the company website and produced materials for advertising campaigns. I also curated and managed the brand's presence on social media and marketplaces."
+     ]
+    ],
+    [
+     "Websites and landing pages",
+     [],
+     [
+      "Designed dedicated pages for Klatz product lines (brutal, brutal2 and glamour), which lifted sales of those lines by 3% and increased time on site by 2–4 minutes.",
+      "Attracted ~100 million ad-driven visits to the site group over three years.",
+      "Reached more than 7–8 million unique users in total."
+     ]
+    ],
+    [
+     "Impact",
+     [
+      "After sales through the websites and landing pages took off, the company got onto the shelves of major retail chains such as Perekrestok, Lenta and Metro. From 2021 it also moved onto marketplaces – helped by the website redesign and themed landing pages for each product line."
+     ]
+    ]
+   ],
+   "stats": [
+    [
+     "~100M",
+     "ad-driven visits in 3 years"
+    ],
+    [
+     "7–8M",
+     "unique users reached"
+    ],
+    [
+     "+3%",
+     "sales of featured product lines"
+    ]
+   ],
+   "web": [
+    [
+     "brutal2.klatz.pro",
+     "https://brutal2.klatz.pro"
+    ],
+    [
+     "brutal.klatz.pro",
+     "https://brutal.klatz.pro"
+    ],
+    [
+     "glamour.klatz.pro",
+     "https://glamour.klatz.pro"
+    ]
+   ],
+   "featured": false,
+   "cover": "assets/cases/klatz-02.webp",
+   "coverAr": 1.24,
+   "img": [
+    [
+     "assets/cases/klatz-01.webp",
+     1.2358
+    ],
+    [
+     "assets/cases/klatz-02.webp",
+     1.2358
+    ],
+    [
+     "assets/cases/klatz-03.webp",
+     1.2358
+    ],
+    [
+     "assets/cases/klatz-04.webp",
+     1.2358
+    ],
+    [
+     "assets/cases/klatz-05.webp",
+     1.7778
+    ]
+   ]
+  },
+  {
+   "id": "novonatum",
+   "g": "brand",
+   "title": "Novonatum (Colief & Bioamicus)",
+   "client": "Novonatum (healthcare)",
+   "year": "2021–2023",
+   "badge": "Identity + web",
+   "tags": [
+    "Healthcare",
+    "Web"
+   ],
+   "sum": "Branding and web design for a healthcare company and its Colief and Bioamicus brands – a corporate site plus 10+ landing pages.",
+   "art": "lines",
+   "sections": [
+    [
+     "Project",
+     [
+      "Branding and web design for the healthcare company Novonatum and its brands Colief and Bioamicus."
+     ]
+    ],
+    [
+     "Role",
+     [
+      "Art direction, web design, communication design.",
+      "I started working on the brands in 2021 and developed their visual identity within the first six months. Over the project I built the company website and more than 10 landing pages that helped promote Colief and Bioamicus products, and produced a large volume of digital materials for advertising campaigns in support of Novonatum's marketing strategy."
+     ]
+    ],
+    [
+     "Websites and landing pages",
+     [],
+     [
+      "Design of the Novonatum corporate website.",
+      "Five landing pages, one per product (e.g. vitamin.colief.ru, masla.colief.ru).",
+      "These attracted ~10 million active user visits.",
+      "Conversion of 3–5%.",
+      "Average time on site: 2 minutes.",
+      "~100 million ad-driven visits over three years."
+     ]
+    ],
+    [
+     "Impact",
+     [
+      "Successful sales through the websites and landing pages opened the way to marketplaces; since 2022 most sales have come through those platforms. External traffic to the site and landing pages became a key revenue source thanks to the improved design, which substantially increased the inflow of new customers."
+     ]
+    ]
+   ],
+   "stats": [
+    [
+     "~10M",
+     "active user visits"
+    ],
+    [
+     "3–5%",
+     "conversion"
+    ],
+    [
+     "2 min",
+     "average time on site"
+    ]
+   ],
+   "web": [
+    [
+     "vitamin.colief.ru",
+     "https://vitamin.colief.ru"
+    ],
+    [
+     "masla.colief.ru",
+     "https://masla.colief.ru/"
+    ]
+   ],
+   "featured": false,
+   "cover": "assets/cases/novonatum-01.webp",
+   "coverAr": 1.6,
+   "img": [
+    [
+     "assets/cases/novonatum-01.webp",
+     1.6
+    ],
+    [
+     "assets/cases/novonatum-02.webp",
+     1.2358
+    ],
+    [
+     "assets/cases/novonatum-03.webp",
+     1.2358
+    ],
+    [
+     "assets/cases/novonatum-04.webp",
+     1.2358
+    ]
+   ]
+  },
+  {
+   "id": "marketgo",
+   "g": "brand",
+   "title": "MarketGO",
+   "client": "MarketGO (marketplace agency)",
+   "year": "2021",
+   "badge": "Identity + web",
+   "tags": [
+    "Branding",
+    "Web",
+    "B2B"
+   ],
+   "sum": "Identity, website and communication materials for a marketplace-management agency – the site now drives 90% of inbound clients.",
+   "art": "network",
+   "sections": [
+    [
+     "Project",
+     [
+      "Brand identity, website design and communication materials for an agency that runs stores on online marketplaces."
+     ]
+    ],
+    [
+     "Role",
+     [
+      "Art direction, identity, website design, brand guidelines.",
+      "I created the corporate identity and a comprehensive brand guide, designed the company website and supporting materials, and oversaw the brand going forward."
+     ]
+    ],
+    [
+     "Websites and landing pages",
+     [],
+     [
+      "Designed a website that became the leader in its niche, ranking first in Yandex and Google for target queries about managing marketplace stores.",
+      "Strong search indexing reflects high usability and long time on site.",
+      "Today the site generates 90% of all client inflow, accounting for 70–80% of the business's revenue."
+     ]
+    ]
+   ],
+   "stats": [
+    [
+     "90%",
+     "of client inflow via the website"
+    ],
+    [
+     "70–80%",
+     "of total revenue"
+    ],
+    [
+     "+40%",
+     "conversion after landing redesign"
+    ]
+   ],
+   "quote": [
+    "I'd single out Igor's ability to dig deep into a task and propose unconventional solutions. Igor 'hears the business' rather than just making pretty pictures. After he redesigned our internal landing page for one line of business (marketplaces), conversion rose by 40% – which effectively turned around the economics of the whole business and made that line our core one. I'd also note his reliability and commitment: always reachable and ready to resolve any issue quickly. That builds trust and makes a long-term relationship easy.",
+    "Head of the company"
+   ],
+   "featured": false,
+   "cover": "assets/cases/marketgo-03.webp",
+   "coverAr": 1.24,
+   "img": [
+    [
+     "assets/cases/marketgo-01.webp",
+     1.2358
+    ],
+    [
+     "assets/cases/marketgo-02.webp",
+     1.2358
+    ],
+    [
+     "assets/cases/marketgo-03.webp",
+     1.2358
+    ],
+    [
+     "assets/cases/marketgo-04.webp",
+     1.2358
+    ]
+   ]
+  },
+  {
+   "id": "ashon",
+   "g": "brand",
+   "title": "Ashon / Black Sand Commodities",
+   "client": "Resources group subsidiaries",
+   "year": "2024",
+   "badge": "Identity",
+   "tags": [
+    "Branding",
+    "Commodities"
+   ],
+   "sum": "Brand identities for two subsidiaries of a natural-resources company, with brand books and channel-wide style guides.",
+   "art": "contours",
+   "sections": [
+    [
+     "Project",
+     [
+      "Branding and identity for subsidiaries of a natural-resources company."
+     ]
+    ],
+    [
+     "Role",
+     [
+      "Marketing support for the companies:"
+     ],
+     [
+      "corporate identity design;",
+      "brand book;",
+      "style guides and design principles for every communication channel."
+     ]
+    ]
+   ],
+   "featured": false,
+   "files": [
+    [
+     "Ashon identity (PDF)",
+     "https://secure-res.craft.do/v2/JfdUMGuYSiChNBPQA1eNufvWkinaHBtPqxssoGZKLbqqz2qAYMNiM3JM9bN9gvE2SSXte3y3jM9MnHgT7hbcRE3dbHhjhiDPvKhZgc4y9iYXW2NneQY92E1hVKHucgGm2Z51FyncjudaY8WgjjZvbJQaVpCmymRvyanGtysphUnMzaPrnN4HAU8Lu7kp2zma1cEgXWFjcfv95UyE657RmnwhS7HXE7Q2Ey8NkGzxu9UG4PR1GM6ADRL3pPigw5h9PmAB3PoKDgySCEouWhCiQYjppDy9vE2LE1km85M7EAiqBjVe8pZVGRkgLCKhx7ubDjXhadEU/A%20Identity_2024.pdf"
+    ],
+    [
+     "Black Sand identity (PDF)",
+     "https://secure-res.craft.do/v2/ZQwGUsi5bYHT9fCxCyuVt4detuK5cY1xNo1iJ1Zph5VnhwrvSYJgCkYXmAUm5Uzt8hAjnK3CWqy3fM8qZy9ffgGnD3jQKzUugwD3yuDKqtJZwiQVJE5T4AuvaFAW9jo7d27jhM7u55iBH5XjaQ27gy3aNwZ354smuYmYE9kjFdpVBNYJmtQkjKXCDQnATe1qoCjMuTNG8ZyCQNibvo2Zr4UZBqjxD8qUDRGoYL1kP97N65sppdJuGdmHzoN7y6s7yV4oui9C7ujXSst8ipvWPgtKT5eqRS9VWr21o1EvMiLdCJJpwe/BS%20Identity.pdf"
+    ]
+   ]
+  },
+  {
+   "id": "branding-agency",
+   "g": "brand",
+   "title": "Branding agency: website & social stories",
+   "client": "Draper (brand practice)",
+   "year": "2021–2022",
+   "badge": "Web + SMM",
+   "tags": [
+    "Web",
+    "SMM",
+    "Storytelling"
+   ],
+   "sum": "Website, case studies and a social series telling the stories of global brands – Red Bull, Supreme, Starbucks, Coca-Cola and more.",
+   "art": "bars",
+   "sections": [
+    [
+     "Project",
+     [
+      "Project work for the brand practice of Draper: designing social posts and case studies, and building the website."
+     ]
+    ],
+    [
+     "Role",
+     [
+      "Website development and design, company case studies, branding, SMM."
+     ]
+    ],
+    [
+     "Social posts",
+     [
+      "Designed a series of information stories about international companies and global brands: Red Bull, Supreme, Starbucks, Johnnie Walker, Coca-Cola, Pizza Hut and Tide's Super Bowl ad."
+     ]
+    ]
+   ],
+   "featured": false,
+   "cover": "assets/cases/branding-agency-02.webp",
+   "coverAr": 1.24,
+   "img": [
+    [
+     "assets/cases/branding-agency-01.webp",
+     1.2358
+    ],
+    [
+     "assets/cases/branding-agency-02.webp",
+     1.2358
+    ],
+    [
+     "assets/cases/branding-agency-03.webp",
+     1.2358
+    ],
+    [
+     "assets/cases/branding-agency-04.webp",
+     0.8
+    ],
+    [
+     "assets/cases/branding-agency-05.webp",
+     0.8
+    ],
+    [
+     "assets/cases/branding-agency-06.webp",
+     0.8
+    ],
+    [
+     "assets/cases/branding-agency-07.webp",
+     0.8
+    ],
+    [
+     "assets/cases/branding-agency-08.webp",
+     0.8
+    ],
+    [
+     "assets/cases/branding-agency-09.webp",
+     0.8
+    ],
+    [
+     "assets/cases/branding-agency-10.webp",
+     0.8
+    ],
+    [
+     "assets/cases/branding-agency-11.webp",
+     0.8
+    ]
+   ]
+  },
+  {
+   "id": "assets-map",
+   "g": "ai",
+   "title": "Global infrastructure assets map",
+   "client": "AI-built tool",
+   "badge": "Interactive map",
+   "tags": [
+    "Maps",
+    "AI-assisted"
+   ],
+   "sum": "A global infrastructure map showing the company's key assets.",
+   "art": "network",
+   "featured": false,
+   "files": [
+    [
+     "Open tool (HTML)",
+     "https://secure-res.craft.do/v2/ZQwGUsi5bYHT9fCxCyuVt4detuK5cY1xNo1iJ1Zph5VnhwrvSYJgCkYXmAUm5Uzt8hAjnK3CWqy3fM8qZy9ffgGnD3jQKzUugwD3yuDKqtJZwiQVJE5T4AuvaFAW9jo7d27jhM7u55iBH5XjaQ27gy3aNtFEnJKVXAsaurbZD4iKqbJD2nvaYPYWfcNvPcPb4fc373jzp9LSFeH3FnjZWvCrPdoq86MaaTCR1xpLUKkk4vcpwYVDEzgs7SQLw4ufUucw8VNjirVnzMRm5R8xJpAfvpYGyeswZLTXAEPDyfR7Tb47EG/Assets%20map.html"
+    ]
+   ]
+  },
+  {
+   "id": "ev-dashboard",
+   "g": "ai",
+   "title": "Electric-vehicle dashboard",
+   "client": "AI-built tool",
+   "badge": "Dashboard",
+   "tags": [
+    "Mobility",
+    "AI-assisted"
+   ],
+   "sum": "An interactive dashboard on the electric-vehicle market.",
+   "art": "area",
+   "featured": false,
+   "files": [
+    [
+     "Open tool (HTML)",
+     "https://secure-res.craft.do/v2/JfdUMGuYSiChNBPQA1eNufvWkinaHBtPqxssoGZKLbqqz2qAYMNiM3JM9bN9gvE2SSXte3y3jM9MnHgT7hbcRE3dbHhjhiDPvKhZgc4y9iYXW2NneQY92E1hVKHucgGm2Z51FyncjudaY8WgjjZvbJQaVZeVkXeBSFFiTd9kVv5FPdX1q25KkUzhttFtQhVvZVunoQt7KwVbdzrLPoKsYbGF7BntDvAyZiQBnm65NJF6YTcRZ4yJedjTGWccdSvqSEatoD845W65EW6RyRNhBTrsvBU123gJFaKzTkQhmY1BHZyxTSXjcoGNq2j7z7pTNGBVxbSP/EV%20dashboard.html"
+    ]
+   ]
+  },
+  {
+   "id": "sankey-tool",
+   "g": "ai",
+   "title": "Sankey builder",
+   "client": "AI-built tool",
+   "badge": "Utility",
+   "tags": [
+    "Sankey",
+    "AI-assisted"
+   ],
+   "sum": "A utility that aggregates data, builds Sankey diagrams and exports them automatically to vector and raster formats.",
+   "art": "lines",
+   "featured": false,
+   "files": [
+    [
+     "Open tool (HTML)",
+     "https://secure-res.craft.do/v2/ZQwGUsi5bYHT9fCxCyuVt4detuK5cY1xNo1iJ1Zph5VnhwrvSYJgCkYXmAUm5Uzt8hAjnK3CWqy3fM8qZy9ffgGnD3jQKzUugwD3yuDKqtJZwiQVJE5T4AuvaFAW9jo7d27jhM7u55iBH5XjaQ27gy3aPBgJ6sVuTYW8SSb1aQX8iVoNuCQzYuzZqzorUDxbYFJBqEjQbDHp9ju68MmMuxaAQ4YMPKjJC3H3jN6SYPTk1JapGZDCJmkETPbLUixN4eD6Yx7fWmTiXMzXx4DtbvrKYjeF4DR4MFnSAjLFy1Ca7KDqPq/Sankey%20tool.html"
+    ]
+   ]
+  },
+  {
+   "id": "vizforge",
+   "g": "ai",
+   "title": "VizForge",
+   "client": "AI-built tool",
+   "badge": "Analytics tool",
+   "tags": [
+    "Charts",
+    "AI-assisted"
+   ],
+   "sum": "A full data-visualisation tool with many chart types, rich styling options and export.",
+   "art": "bars",
+   "featured": false,
+   "files": [
+    [
+     "Open tool (HTML)",
+     "https://secure-res.craft.do/v2/JfdUMGuYSiChNBPQA1eNufvWkinaHBtPqxssoGZKLbqqz2qAYMNiM3JM9bN9gvE2SSXte3y3jM9MnHgT7hbcRE3dbHhjhiDPvKhZgc4y9iYXW2NneQY92E1hVKHucgGm2Z51FyncjudaY8WgjjZvbJQaVaPBfjiZEcQHBw13uP9Vdiw1aak98ZVwz5CLuMtjAkwX4MksHCMkN4eUXpHTd5ZsDMTDPShYRaDQThiBha6BBtVgNULSLK3BVt8SXUR9mUNQthnPjt51zsNnC8tFFqJ9Zb5s38fhPHECX71xjowQahEW9yoL88jRKwkBBXu3gw1sEe8N/VizForge_analytical%20tool.html"
+    ]
+   ]
+  }
+ ]
+}
