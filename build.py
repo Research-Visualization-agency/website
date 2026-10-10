@@ -15,7 +15,7 @@ src = (ROOT / "index.html").read_text(encoding="utf-8")
 data = json.loads((ROOT / "data" / "cases.json").read_text(encoding="utf-8"))
 GROUPS = {g["id"]: g for g in data["groups"]}
 CASES = data["cases"]
-SITE = "hice — Research & information design studio"
+SITE = "hice. — Research & information design studio"
 
 
 def h(v):
@@ -42,6 +42,11 @@ def art_svg(kind, label):
     return f'<svg data-art="{h(kind)}" viewBox="0 0 640 360" preserveAspectRatio="xMidYMid slice" role="img" aria-label="{h(label)}"></svg>'
 
 
+def ht(v):
+    """Escaped text with the brand name set as "hice." (full stop in the logo colour)."""
+    return re.sub(r"\bhice\b", 'hice<span class="brand-dot">.</span>', h(v))
+
+
 def full(duo, im):
     return ' class="full"' if duo and im[1] < 0.6 else ""
 
@@ -62,10 +67,10 @@ def render_body(c):
 
     txt = ""
     for sec in c.get("sections", []):
-        body = "".join(f"<p>{h(p)}</p>" for p in (sec[1] if len(sec) > 1 else []) or [])
+        body = "".join(f"<p>{ht(p)}</p>" for p in (sec[1] if len(sec) > 1 else []) or [])
         if len(sec) > 2 and sec[2]:
             tag = "ol" if len(sec) > 3 and sec[3] == "ol" else "ul"
-            body += f"<{tag}>" + "".join(f"<li>{h(li)}</li>" for li in sec[2]) + f"</{tag}>"
+            body += f"<{tag}>" + "".join(f"<li>{ht(li)}</li>" for li in sec[2]) + f"</{tag}>"
         if body:
             txt += f"<div><h3>{h(sec[0])}</h3>{body}</div>"
     if c.get("quote"):

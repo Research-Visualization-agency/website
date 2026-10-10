@@ -423,3 +423,6 @@ body.dlg-open { overflow: hidden; }
 .logo .splash { position: absolute; z-index: 3; width: .42em; height: .09em; margin: -.045em 0 0 -.21em; border-radius: 50%; border: 1px solid var(--mark-dot); box-shadow: 0 0 6px rgba(15,205,115,.45); pointer-events: none; }
 .logo .spark { position: absolute; z-index: 3; width: .045em; height: .045em; margin: -.0225em 0 0 -.0225em; border-radius: 50%; background: var(--mark-dot); box-shadow: 0 0 4px rgba(15,205,115,.8); pointer-events: none; }
 @media (prefers-reduced-motion: reduce) { .js .logo .mark[data-intro] .l { opacity: 1; } .logo .mark.is-idle .dot-float { animation: none; } }
+
+/* brand name is "hice." — the full stop takes the logo-dot colour */
+.brand-dot { color: #0fcd73; }
