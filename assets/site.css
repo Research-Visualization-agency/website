@@ -81,18 +81,12 @@ img, svg, canvas { max-width: 100%; }
 .logo { font: 400 24px/1 var(--font-display); letter-spacing: -.02em; color: var(--ink); text-decoration: none; justify-self: start; }
 .logo { --mark-dot: #0fcd73; }
 .logo .mark { position: relative; display: inline-block; white-space: nowrap; line-height: 1; }
-.logo .mark-i { position: relative; display: inline-block; line-height: 1; color: inherit; }
-/* hice mark: the tittle of the dotless ı is a green dot that hovers above it */
-.logo .mark-i i { position: absolute; left: 50%; top: -.0135em; width: .127em; height: .127em; margin-left: -.116em; border-radius: 50%;
-  background: var(--mark-dot); box-shadow: 0 0 .14em rgba(15,205,115,.55), 0 0 .03em rgba(15,205,115,.8);
-  animation: markFloat 3s infinite; }
 @keyframes markFloat {
   0%   { transform: translateY(0); animation-timing-function: cubic-bezier(.45,0,.25,1); }
   40%  { transform: translateY(-.085em); animation-timing-function: linear; }
   58%  { transform: translateY(-.095em); animation-timing-function: cubic-bezier(.45,0,.55,1); }
   100% { transform: translateY(0); }
 }
-@media (prefers-reduced-motion: reduce) { .logo .mark-i i { animation: none; } }
 .nav { display: flex; gap: var(--space-32); }
 .nav a { position: relative; padding: 10px 0; font: 600 var(--fs-ui)/1 var(--font-sans); letter-spacing: .06em; text-transform: uppercase; text-decoration: none; color: var(--ink); }
 .nav a::after { content: ""; position: absolute; left: 0; right: 0; bottom: 2px; height: 1.5px; background: var(--accent-electric); transform: scaleX(0); transform-origin: right; transition: transform var(--dur-micro) ease-out; }
@@ -417,3 +411,15 @@ body.dlg-open { overflow: hidden; }
     scroll-behavior: auto !important;
   }
 }
+
+/* hice logo (animated by assets/logo.js) */
+.logo .mark .word { position: relative; z-index: 1; display: inline-block; }
+.logo .mark .l { display: inline-block; will-change: transform, opacity; }
+.js .logo .mark[data-intro] .l { opacity: 0; }
+.logo .mark-dot { position: absolute; left: 0; top: 0; z-index: 2; display: block; width: 0; height: 0; opacity: 0; pointer-events: none; will-change: transform; }
+.logo .mark-dot .dot-float, .logo .mark-dot .dot-core { display: block; width: 100%; height: 100%; }
+.logo .mark-dot .dot-core { border-radius: 50%; background: var(--mark-dot); box-shadow: 0 0 .14em rgba(15,205,115,.55), 0 0 .03em rgba(15,205,115,.8); will-change: transform; }
+.logo .mark.is-idle .dot-float { animation: markFloat 3s infinite; }
+.logo .splash { position: absolute; z-index: 3; width: .42em; height: .09em; margin: -.045em 0 0 -.21em; border-radius: 50%; border: 1px solid var(--mark-dot); box-shadow: 0 0 6px rgba(15,205,115,.45); pointer-events: none; }
+.logo .spark { position: absolute; z-index: 3; width: .045em; height: .045em; margin: -.0225em 0 0 -.0225em; border-radius: 50%; background: var(--mark-dot); box-shadow: 0 0 4px rgba(15,205,115,.8); pointer-events: none; }
+@media (prefers-reduced-motion: reduce) { .js .logo .mark[data-intro] .l { opacity: 1; } .logo .mark.is-idle .dot-float { animation: none; } }

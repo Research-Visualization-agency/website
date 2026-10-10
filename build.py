@@ -144,6 +144,7 @@ def page(c, i):
 <meta name="description" content="{h(c["sum"])}">
 <title>{h(title)}</title>
 <link rel="stylesheet" href="../assets/site.css">
+<script>document.documentElement.classList.add("js")</script>
 <style>
 .case-page {{ padding: clamp(112px, 14vw, 160px) 0 var(--space-64, 64px); }}
 .case-crumb {{ margin: 0 0 var(--space-24, 24px); }}
@@ -175,6 +176,7 @@ def page(c, i):
 
 {relink(footer_raw, "../")}
 {PAGE_JS}
+<script src="../assets/logo.js"></script>
 </body>
 </html>
 """
@@ -274,6 +276,7 @@ def work_page():
 <meta name="description" content="Selected research, dashboard, presentation, data-visualisation and brand projects by hice.">
 <title>Our work — {h(SITE)}</title>
 <link rel="stylesheet" href="assets/site.css">
+<script>document.documentElement.classList.add("js")</script>
 <style>.work-page {{ padding: clamp(112px, 14vw, 160px) 0 var(--space-64, 64px); }}</style>
 </head>
 <body>
@@ -298,6 +301,7 @@ def work_page():
 
 {relink(footer_raw, "")}
 {WORK_JS}
+<script src="assets/logo.js"></script>
 </body>
 </html>
 """
