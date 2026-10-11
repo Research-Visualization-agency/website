@@ -64,12 +64,12 @@
     ]
    ],
    "featured": false,
-   "cover": "assets/cases/stocks-in-ports-01.webp",
-   "coverAr": 0.49,
+   "cover": "assets/cases/stocks-in-ports-placeholder.webp",
+   "coverAr": 1.7778,
    "img": [
     [
-     "assets/cases/stocks-in-ports-01.webp",
-     0.4854
+     "assets/cases/stocks-in-ports-placeholder.webp",
+     1.7778
     ]
    ]
   },
@@ -110,12 +110,12 @@
     ]
    ],
    "featured": false,
-   "cover": "assets/cases/fuel-flows-01.webp",
-   "coverAr": 0.85,
+   "cover": "assets/cases/fuel-flows-placeholder.webp",
+   "coverAr": 1.7778,
    "img": [
     [
-     "assets/cases/fuel-flows-01.webp",
-     0.8511
+     "assets/cases/fuel-flows-placeholder.webp",
+     1.7778
     ]
    ]
   },
@@ -140,16 +140,12 @@
     ]
    ],
    "featured": false,
-   "cover": "assets/cases/finished-goods-02.webp",
-   "coverAr": 1.66,
+   "cover": "assets/cases/finished-goods-placeholder.webp",
+   "coverAr": 1.7778,
    "img": [
     [
-     "assets/cases/finished-goods-01.webp",
-     0.8511
-    ],
-    [
-     "assets/cases/finished-goods-02.webp",
-     1.6644
+     "assets/cases/finished-goods-placeholder.webp",
+     1.7778
     ]
    ]
   },
@@ -176,27 +172,11 @@
     ]
    ],
    "featured": false,
-   "cover": "assets/cases/device-company-01.webp",
-   "coverAr": 1.78,
+   "cover": "assets/cases/device-company-placeholder.webp",
+   "coverAr": 1.7778,
    "img": [
     [
-     "assets/cases/device-company-01.webp",
-     1.7778
-    ],
-    [
-     "assets/cases/device-company-02.webp",
-     1.7778
-    ],
-    [
-     "assets/cases/device-company-03.webp",
-     1.7778
-    ],
-    [
-     "assets/cases/device-company-04.webp",
-     1.7778
-    ],
-    [
-     "assets/cases/device-company-05.webp",
+     "assets/cases/device-company-placeholder.webp",
      1.7778
     ]
    ]
@@ -232,23 +212,11 @@
     ]
    ],
    "featured": false,
-   "cover": "assets/cases/microelectronics-03.webp",
-   "coverAr": 1.78,
+   "cover": "assets/cases/microelectronics-placeholder.webp",
+   "coverAr": 1.7778,
    "img": [
     [
-     "assets/cases/microelectronics-01.webp",
-     1.7778
-    ],
-    [
-     "assets/cases/microelectronics-02.webp",
-     1.7778
-    ],
-    [
-     "assets/cases/microelectronics-03.webp",
-     1.7778
-    ],
-    [
-     "assets/cases/microelectronics-04.webp",
+     "assets/cases/microelectronics-placeholder.webp",
      1.7778
     ]
    ]
@@ -330,7 +298,15 @@
      "ol"
     ]
    ],
-   "featured": false
+   "featured": false,
+   "cover": "assets/cases/otp-bank-placeholder.webp",
+   "coverAr": 1.7778,
+   "img": [
+    [
+     "assets/cases/otp-bank-placeholder.webp",
+     1.7778
+    ]
+   ]
   },
   {
    "id": "aved",
@@ -351,7 +327,15 @@
      ]
     ]
    ],
-   "featured": false
+   "featured": false,
+   "cover": "assets/cases/aved-placeholder.webp",
+   "coverAr": 1.7778,
+   "img": [
+    [
+     "assets/cases/aved-placeholder.webp",
+     1.7778
+    ]
+   ]
   },
   {
    "id": "smm-galaxy",
@@ -373,7 +357,15 @@
      ]
     ]
    ],
-   "featured": false
+   "featured": false,
+   "cover": "assets/cases/smm-galaxy-placeholder.webp",
+   "coverAr": 1.7778,
+   "img": [
+    [
+     "assets/cases/smm-galaxy-placeholder.webp",
+     1.7778
+    ]
+   ]
   },
   {
    "id": "project-5-100",
@@ -401,7 +393,15 @@
      ]
     ]
    ],
-   "featured": false
+   "featured": false,
+   "cover": "assets/cases/project-5-100-placeholder.webp",
+   "coverAr": 1.7778,
+   "img": [
+    [
+     "assets/cases/project-5-100-placeholder.webp",
+     1.7778
+    ]
+   ]
   },
   {
    "id": "dataviz-charts",
@@ -425,59 +425,11 @@
     ]
    ],
    "featured": true,
-   "cover": "assets/cases/dataviz-charts-02.webp",
-   "coverAr": 1.56,
+   "cover": "assets/cases/dataviz-charts-placeholder.webp",
+   "coverAr": 1.7778,
    "img": [
     [
-     "assets/cases/dataviz-charts-01.webp",
-     1.7699
-    ],
-    [
-     "assets/cases/dataviz-charts-02.webp",
-     1.5605
-    ],
-    [
-     "assets/cases/dataviz-charts-03.webp",
-     1.3825
-    ],
-    [
-     "assets/cases/dataviz-charts-04.webp",
-     0.8392
-    ],
-    [
-     "assets/cases/dataviz-charts-05.webp",
-     0.5831
-    ],
-    [
-     "assets/cases/dataviz-charts-06.webp",
-     0.4986
-    ],
-    [
-     "assets/cases/dataviz-charts-07.webp",
-     0.6749
-    ],
-    [
-     "assets/cases/dataviz-charts-08.webp",
-     1.3333
-    ],
-    [
-     "assets/cases/dataviz-charts-09.webp",
-     1.2422
-    ],
-    [
-     "assets/cases/dataviz-charts-10.webp",
-     1.5936
-    ],
-    [
-     "assets/cases/dataviz-charts-11.webp",
-     1.0
-    ],
-    [
-     "assets/cases/dataviz-charts-12.webp",
-     1.5
-    ],
-    [
-     "assets/cases/dataviz-charts-13.webp",
+     "assets/cases/dataviz-charts-placeholder.webp",
      1.7778
     ]
    ]
@@ -508,36 +460,12 @@
     ]
    ],
    "featured": false,
-   "cover": "assets/cases/geo-mapping-07.webp",
-   "coverAr": 1.18,
+   "cover": "assets/cases/geo-mapping-placeholder.webp",
+   "coverAr": 1.7778,
    "img": [
     [
-     "assets/cases/geo-mapping-01.webp",
-     1.0
-    ],
-    [
-     "assets/cases/geo-mapping-02.webp",
-     0.7835
-    ],
-    [
-     "assets/cases/geo-mapping-03.webp",
-     1.683
-    ],
-    [
-     "assets/cases/geo-mapping-04.webp",
-     1.2903
-    ],
-    [
-     "assets/cases/geo-mapping-05.webp",
+     "assets/cases/geo-mapping-placeholder.webp",
      1.7778
-    ],
-    [
-     "assets/cases/geo-mapping-06.webp",
-     1.7778
-    ],
-    [
-     "assets/cases/geo-mapping-07.webp",
-     1.1811
     ]
    ]
   },
@@ -604,24 +532,8 @@
    "coverAr": 1.24,
    "img": [
     [
-     "assets/cases/klatz-01.webp",
-     1.2358
-    ],
-    [
      "assets/cases/klatz-02.webp",
      1.2358
-    ],
-    [
-     "assets/cases/klatz-03.webp",
-     1.2358
-    ],
-    [
-     "assets/cases/klatz-04.webp",
-     1.2358
-    ],
-    [
-     "assets/cases/klatz-05.webp",
-     1.7778
     ]
    ]
   },
@@ -686,24 +598,12 @@
     ]
    ],
    "featured": false,
-   "cover": "assets/cases/novonatum-01.webp",
-   "coverAr": 1.6,
+   "cover": "assets/cases/novonatum-placeholder.webp",
+   "coverAr": 1.7778,
    "img": [
     [
-     "assets/cases/novonatum-01.webp",
-     1.6
-    ],
-    [
-     "assets/cases/novonatum-02.webp",
-     1.2358
-    ],
-    [
-     "assets/cases/novonatum-03.webp",
-     1.2358
-    ],
-    [
-     "assets/cases/novonatum-04.webp",
-     1.2358
+     "assets/cases/novonatum-placeholder.webp",
+     1.7778
     ]
    ]
   },
@@ -764,24 +664,12 @@
     "Head of the company"
    ],
    "featured": false,
-   "cover": "assets/cases/marketgo-03.webp",
-   "coverAr": 1.24,
+   "cover": "assets/cases/marketgo-placeholder.webp",
+   "coverAr": 1.7778,
    "img": [
     [
-     "assets/cases/marketgo-01.webp",
-     1.2358
-    ],
-    [
-     "assets/cases/marketgo-02.webp",
-     1.2358
-    ],
-    [
-     "assets/cases/marketgo-03.webp",
-     1.2358
-    ],
-    [
-     "assets/cases/marketgo-04.webp",
-     1.2358
+     "assets/cases/marketgo-placeholder.webp",
+     1.7778
     ]
    ]
   },
@@ -820,52 +708,12 @@
     ]
    ],
    "featured": false,
-   "cover": "assets/cases/branding-agency-02.webp",
-   "coverAr": 1.24,
+   "cover": "assets/cases/branding-agency-placeholder.webp",
+   "coverAr": 1.7778,
    "img": [
     [
-     "assets/cases/branding-agency-01.webp",
-     1.2358
-    ],
-    [
-     "assets/cases/branding-agency-02.webp",
-     1.2358
-    ],
-    [
-     "assets/cases/branding-agency-03.webp",
-     1.2358
-    ],
-    [
-     "assets/cases/branding-agency-04.webp",
-     0.8
-    ],
-    [
-     "assets/cases/branding-agency-05.webp",
-     0.8
-    ],
-    [
-     "assets/cases/branding-agency-06.webp",
-     0.8
-    ],
-    [
-     "assets/cases/branding-agency-07.webp",
-     0.8
-    ],
-    [
-     "assets/cases/branding-agency-08.webp",
-     0.8
-    ],
-    [
-     "assets/cases/branding-agency-09.webp",
-     0.8
-    ],
-    [
-     "assets/cases/branding-agency-10.webp",
-     0.8
-    ],
-    [
-     "assets/cases/branding-agency-11.webp",
-     0.8
+     "assets/cases/branding-agency-placeholder.webp",
+     1.7778
     ]
    ]
   },
@@ -881,7 +729,15 @@
    ],
    "sum": "A global infrastructure map showing the company's key assets.",
    "art": "network",
-   "featured": false
+   "featured": false,
+   "cover": "assets/cases/assets-map-placeholder.webp",
+   "coverAr": 1.7778,
+   "img": [
+    [
+     "assets/cases/assets-map-placeholder.webp",
+     1.7778
+    ]
+   ]
   },
   {
    "id": "ev-dashboard",
@@ -895,7 +751,15 @@
    ],
    "sum": "An interactive dashboard on the electric-vehicle market.",
    "art": "area",
-   "featured": false
+   "featured": false,
+   "cover": "assets/cases/ev-dashboard-placeholder.webp",
+   "coverAr": 1.7778,
+   "img": [
+    [
+     "assets/cases/ev-dashboard-placeholder.webp",
+     1.7778
+    ]
+   ]
   },
   {
    "id": "sankey-tool",
@@ -909,7 +773,15 @@
    ],
    "sum": "A utility that aggregates data, builds Sankey diagrams and exports them automatically to vector and raster formats.",
    "art": "lines",
-   "featured": false
+   "featured": false,
+   "cover": "assets/cases/sankey-tool-placeholder.webp",
+   "coverAr": 1.7778,
+   "img": [
+    [
+     "assets/cases/sankey-tool-placeholder.webp",
+     1.7778
+    ]
+   ]
   },
   {
    "id": "vizforge",
@@ -923,7 +795,15 @@
    ],
    "sum": "A full data-visualisation tool with many chart types, rich styling options and export.",
    "art": "bars",
-   "featured": false
+   "featured": false,
+   "cover": "assets/cases/vizforge-placeholder.webp",
+   "coverAr": 1.7778,
+   "img": [
+    [
+     "assets/cases/vizforge-placeholder.webp",
+     1.7778
+    ]
+   ]
   }
  ]
 }
