@@ -154,44 +154,6 @@
    ]
   },
   {
-   "id": "ct-deck",
-   "g": "presentations",
-   "title": "Control Tower: results & roadmap",
-   "client": "Natural-resources group",
-   "badge": "Executive deck",
-   "tags": [
-    "Supply chain",
-    "Strategy"
-   ],
-   "sum": "Executive presentation of the Control Tower reporting system rolled out across the supply chain, and its 2025–2026 development plan.",
-   "art": "lines",
-   "sections": [
-    [
-     "Overview",
-     [
-      "A presentation summarising the supply-chain reporting system implemented in 2024, the indicators brought into a single reporting system, and the roadmap for its further development."
-     ]
-    ]
-   ],
-   "featured": false,
-   "cover": "assets/cases/ct-deck-01.webp",
-   "coverAr": 1.88,
-   "img": [
-    [
-     "assets/cases/ct-deck-01.webp",
-     1.8838
-    ],
-    [
-     "assets/cases/ct-deck-02.webp",
-     1.9481
-    ],
-    [
-     "assets/cases/ct-deck-03.webp",
-     1.8927
-    ]
-   ]
-  },
-  {
    "id": "device-company",
    "g": "presentations",
    "title": "Packaging research for a consumer-device brand",
@@ -577,24 +539,6 @@
      "assets/cases/geo-mapping-07.webp",
      1.1811
     ]
-   ],
-   "links": [
-    [
-     "Coal companies and thermal power plants",
-     "https://datawrapper.dwcdn.net/fDKkE/2/"
-    ],
-    [
-     "China's net exports by province",
-     "https://datawrapper.dwcdn.net/zwiVs/2/"
-    ],
-    [
-     "Installed capacity of India's coal power plants by region, MW",
-     "https://datawrapper.dwcdn.net/otBcE/2/"
-    ],
-    [
-     "Total generation (GWh), 2022",
-     "https://datawrapper.dwcdn.net/kV3w7/3/"
-    ]
    ]
   },
   {
@@ -653,20 +597,6 @@
     [
      "+3%",
      "sales of featured product lines"
-    ]
-   ],
-   "web": [
-    [
-     "brutal2.klatz.pro",
-     "https://brutal2.klatz.pro"
-    ],
-    [
-     "brutal.klatz.pro",
-     "https://brutal.klatz.pro"
-    ],
-    [
-     "glamour.klatz.pro",
-     "https://glamour.klatz.pro"
     ]
    ],
    "featured": false,
@@ -753,16 +683,6 @@
     [
      "2 min",
      "average time on site"
-    ]
-   ],
-   "web": [
-    [
-     "vitamin.colief.ru",
-     "https://vitamin.colief.ru"
-    ],
-    [
-     "masla.colief.ru",
-     "https://masla.colief.ru/"
     ]
    ],
    "featured": false,
@@ -961,13 +881,7 @@
    ],
    "sum": "A global infrastructure map showing the company's key assets.",
    "art": "network",
-   "featured": false,
-   "files": [
-    [
-     "Open tool (HTML)",
-     "https://secure-res.craft.do/v2/ZQwGUsi5bYHT9fCxCyuVt4detuK5cY1xNo1iJ1Zph5VnhwrvSYJgCkYXmAUm5Uzt8hAjnK3CWqy3fM8qZy9ffgGnD3jQKzUugwD3yuDKqtJZwiQVJE5T4AuvaFAW9jo7d27jhM7u55iBH5XjaQ27gy3aNtFEnJKVXAsaurbZD4iKqbJD2nvaYPYWfcNvPcPb4fc373jzp9LSFeH3FnjZWvCrPdoq86MaaTCR1xpLUKkk4vcpwYVDEzgs7SQLw4ufUucw8VNjirVnzMRm5R8xJpAfvpYGyeswZLTXAEPDyfR7Tb47EG/Assets%20map.html"
-    ]
-   ]
+   "featured": false
   },
   {
    "id": "ev-dashboard",
@@ -981,13 +895,7 @@
    ],
    "sum": "An interactive dashboard on the electric-vehicle market.",
    "art": "area",
-   "featured": false,
-   "files": [
-    [
-     "Open tool (HTML)",
-     "https://secure-res.craft.do/v2/JfdUMGuYSiChNBPQA1eNufvWkinaHBtPqxssoGZKLbqqz2qAYMNiM3JM9bN9gvE2SSXte3y3jM9MnHgT7hbcRE3dbHhjhiDPvKhZgc4y9iYXW2NneQY92E1hVKHucgGm2Z51FyncjudaY8WgjjZvbJQaVZeVkXeBSFFiTd9kVv5FPdX1q25KkUzhttFtQhVvZVunoQt7KwVbdzrLPoKsYbGF7BntDvAyZiQBnm65NJF6YTcRZ4yJedjTGWccdSvqSEatoD845W65EW6RyRNhBTrsvBU123gJFaKzTkQhmY1BHZyxTSXjcoGNq2j7z7pTNGBVxbSP/EV%20dashboard.html"
-    ]
-   ]
+   "featured": false
   },
   {
    "id": "sankey-tool",
@@ -1001,13 +909,7 @@
    ],
    "sum": "A utility that aggregates data, builds Sankey diagrams and exports them automatically to vector and raster formats.",
    "art": "lines",
-   "featured": false,
-   "files": [
-    [
-     "Open tool (HTML)",
-     "https://secure-res.craft.do/v2/ZQwGUsi5bYHT9fCxCyuVt4detuK5cY1xNo1iJ1Zph5VnhwrvSYJgCkYXmAUm5Uzt8hAjnK3CWqy3fM8qZy9ffgGnD3jQKzUugwD3yuDKqtJZwiQVJE5T4AuvaFAW9jo7d27jhM7u55iBH5XjaQ27gy3aPBgJ6sVuTYW8SSb1aQX8iVoNuCQzYuzZqzorUDxbYFJBqEjQbDHp9ju68MmMuxaAQ4YMPKjJC3H3jN6SYPTk1JapGZDCJmkETPbLUixN4eD6Yx7fWmTiXMzXx4DtbvrKYjeF4DR4MFnSAjLFy1Ca7KDqPq/Sankey%20tool.html"
-    ]
-   ]
+   "featured": false
   },
   {
    "id": "vizforge",
@@ -1021,13 +923,7 @@
    ],
    "sum": "A full data-visualisation tool with many chart types, rich styling options and export.",
    "art": "bars",
-   "featured": false,
-   "files": [
-    [
-     "Open tool (HTML)",
-     "https://secure-res.craft.do/v2/JfdUMGuYSiChNBPQA1eNufvWkinaHBtPqxssoGZKLbqqz2qAYMNiM3JM9bN9gvE2SSXte3y3jM9MnHgT7hbcRE3dbHhjhiDPvKhZgc4y9iYXW2NneQY92E1hVKHucgGm2Z51FyncjudaY8WgjjZvbJQaVaPBfjiZEcQHBw13uP9Vdiw1aak98ZVwz5CLuMtjAkwX4MksHCMkN4eUXpHTd5ZsDMTDPShYRaDQThiBha6BBtVgNULSLK3BVt8SXUR9mUNQthnPjt51zsNnC8tFFqJ9Zb5s38fhPHECX71xjowQahEW9yoL88jRKwkBBXu3gw1sEe8N/VizForge_analytical%20tool.html"
-    ]
-   ]
+   "featured": false
   }
  ]
 }
