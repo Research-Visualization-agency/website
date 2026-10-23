@@ -427,3 +427,21 @@ body.dlg-open { overflow: hidden; }
 
 /* brand name is "hice." — the full stop takes the logo-dot colour */
 .brand-dot { color: #0fcd73; }
+
+/* project schematic on case pages (data "flow"): stages left to right, arrows between, last stage in accent */
+.gallery .flow { padding: var(--space-24); display: grid; gap: var(--space-16); }
+.flow figcaption { font: 600 12px/1.35 var(--font-sans); letter-spacing: .08em; text-transform: uppercase; color: var(--accent-electric); }
+.flow ol { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(var(--cols), minmax(0, 1fr)); gap: 40px; }
+.flow ol > li { position: relative; display: grid; gap: 10px; align-content: start; }
+.flow ol > li + li::before { content: ""; position: absolute; left: -36px; top: 9px; width: 22px; height: 1px; background: var(--line-strong); }
+.flow ol > li + li::after { content: ""; position: absolute; left: -19px; top: 5px; width: 8px; height: 8px; border-top: 1px solid var(--line-strong); border-right: 1px solid var(--line-strong); transform: rotate(45deg); }
+.flow h4 { margin: 0; font: 600 13px/1.4 var(--font-sans); color: var(--ink); }
+.flow h4 b { color: var(--ink-muted); font-weight: 600; margin-right: 6px; }
+.flow ul { list-style: none; margin: 0; padding: 0; display: grid; gap: 6px; }
+.flow ul li { padding: 8px 10px; border: 1px solid var(--line); border-radius: var(--radius-xs); background: var(--bg-primary); font-size: 13px; line-height: 1.35; color: var(--ink-muted); }
+.flow ol > li:last-child ul li { border-color: var(--accent-electric); color: var(--ink); }
+@media (max-width: 600px) {
+  .flow ol { grid-template-columns: 1fr; gap: 32px; }
+  .flow ol > li + li::before { left: 12px; top: -24px; width: 1px; height: 16px; }
+  .flow ol > li + li::after { left: 8px; top: -14px; transform: rotate(135deg); }
+}
