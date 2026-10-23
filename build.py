@@ -51,6 +51,15 @@ def full(duo, im):
     return ' class="full"' if duo and im[1] < 0.6 else ""
 
 
+def flow_html(flow):
+    """Schematic of the project: columns of steps read left to right, the last column is the result."""
+    name, cols = flow
+    stages = "".join(
+        f'<li><h4><b>{n + 1:02d}</b> {h(head)}</h4><ul>' + "".join(f"<li>{ht(i)}</li>" for i in items) + "</ul></li>"
+        for n, (head, items) in enumerate(cols))
+    return f'<figure class="flow full"><figcaption>{h(name)}</figcaption><ol style="--cols:{len(cols)}">{stages}</ol></figure>'
+
+
 def render_body(c):
     g = GROUPS[c["g"]]
     facts = f'<dl class="dlg-facts"><dt>Client</dt><dd>{h(c["client"])}</dd>'
@@ -94,6 +103,8 @@ def render_body(c):
             f'style="aspect-ratio:{im[1]}"></figure>' for i, im in enumerate(imgs))
     else:
         gal = f'<figure class="art">{art_svg(c.get("art", "bars"), c["title"] + " — illustration")}</figure>'
+    if c.get("flow"):
+        gal += flow_html(c["flow"])
     out += f'<div class="dlg-body" data-rv style="--rd:1"><div class="dlg-text">{txt}</div><div class="gallery{" duo" if duo else ""}">{gal}</div></div>'
     return out
 

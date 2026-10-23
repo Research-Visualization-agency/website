@@ -36,26 +36,36 @@
    "art": "bars",
    "sections": [
     [
-     "Goal",
+     "Challenge",
      [
-      "To create an information and analytics tool – a dashboard – that gives a fuller and more accurate picture of inventory in ports, enabling more effective planning and resource management."
+      "Inventory held in ports was reported separately by each site, in different formats and on different schedules. Planners had no single, reliable picture of what was where, which made it hard to plan shipments and allocate resources."
      ]
     ],
     [
-     "Plan",
+     "Approach",
+     [],
      [
-      "The project began with collecting and consolidating data from every work site: gathering data from multiple sources, processing it and bringing it into a single format."
+      "Audited the data each port site produced and agreed one common structure for stock records.",
+      "Collected and consolidated data from every site and source into a single dataset.",
+      "Cleaned and standardised the records so figures from different ports could be compared directly.",
+      "Designed the dashboard around the questions planners ask every week: how much, where, and how it is changing."
+     ],
+     "ol"
+    ],
+    [
+     "What we delivered",
+     [],
+     [
+      "A consolidated stock dataset covering all port sites.",
+      "An analytical dashboard with an overview across ports and drill-down to each site.",
+      "A documented data blueprint showing how data moves from source to dashboard."
      ]
     ],
     [
-     "Result",
+     "Outcome",
      [
-      "The consolidated data improved the quality of analytics, sped up business-intelligence processes and delivered insights for strategic planning in logistics and supply-chain management, strengthening the company's competitiveness."
+      "Consolidated data improved the quality of analytics and sped up business-intelligence work. Logistics and supply-chain teams gained a shared view for strategic planning instead of reconciling site reports by hand."
      ]
-    ],
-    [
-     "Project blueprint",
-     []
     ]
    ],
    "featured": false,
@@ -71,6 +81,35 @@
     "For the first time we see stock across every port in one place. Weekly planning that used to take two days of spreadsheet work now takes an hour.",
     "Head of supply-chain planning, logistics company",
     "placeholder"
+   ],
+   "flow": [
+    "Project blueprint",
+    [
+     [
+      "Sources",
+      [
+       "Port site reports",
+       "Warehouse records",
+       "Shipment data"
+      ]
+     ],
+     [
+      "Consolidation",
+      [
+       "Collection from every site",
+       "Cleaning & single format",
+       "Unified stock dataset"
+      ]
+     ],
+     [
+      "Dashboard",
+      [
+       "Stock across all ports",
+       "Drill-down by site",
+       "Trends for planning"
+      ]
+     ]
+    ]
    ]
   },
   {
@@ -87,26 +126,36 @@
    "art": "network",
    "sections": [
     [
-     "Objective",
+     "Challenge",
      [
-      "Automate and visualise data on the movement and use of fuel across the company's energy systems."
+      "Data on how fuel moved to the company's power systems, and how it was consumed there, was collected manually and spread across several sources. Managers lacked a transparent, up-to-date view of fuel flows and the risks around them."
      ]
     ],
     [
-     "Process",
+     "Approach",
+     [],
      [
-      "Data collection, processing and analysis, then integration with the company's existing resource-management systems – providing full transparency and control at every level."
+      "Mapped the fuel chain from delivery through storage to consumption by each power system.",
+      "Automated the collection and processing of fuel movement and consumption data.",
+      "Analysed the flows to show where fuel goes and how consumption changes over time.",
+      "Integrated the solution with the company's existing resource-management systems."
+     ],
+     "ol"
+    ],
+    [
+     "What we delivered",
+     [],
+     [
+      "An automated data pipeline for fuel movement and consumption.",
+      "Flow visualisations from source to each power system.",
+      "An implementation scheme showing how the solution connects to existing systems."
      ]
     ],
     [
-     "Result",
+     "Outcome",
      [
-      "Automation and visualisation made the company's energy systems more efficient, improved resource management and reduced operational risk."
+      "Automation and visualisation gave transparency and control at every level, made the energy systems more efficient to manage, improved resource management and reduced operational risk."
      ]
-    ],
-    [
-     "Implementation scheme",
-     []
     ]
    ],
    "featured": false,
@@ -116,6 +165,35 @@
     [
      "assets/cases/fuel-flows-placeholder.webp",
      1.7778
+    ]
+   ],
+   "flow": [
+    "Implementation scheme",
+    [
+     [
+      "Inputs",
+      [
+       "Fuel deliveries",
+       "Storage levels",
+       "Consumption by unit"
+      ]
+     ],
+     [
+      "Automation",
+      [
+       "Data collection",
+       "Processing & checks",
+       "Integration with resource systems"
+      ]
+     ],
+     [
+      "Visibility",
+      [
+       "Flow diagrams",
+       "Consumption monitoring",
+       "Risk alerts for managers"
+      ]
+     ]
     ]
    ]
   },
@@ -133,9 +211,33 @@
    "art": "bars",
    "sections": [
     [
-     "Overview",
+     "Challenge",
      [
-      "Data-flow scheme and monitoring dashboard for finished-goods inventory at the company's plants."
+      "The company produced at several plants, and stock of finished goods at each site was tracked separately. Management needed one place to see how much finished product was on hand and how it was changing."
+     ]
+    ],
+    [
+     "Approach",
+     [],
+     [
+      "Mapped where finished-goods data originates at each plant and how it flows today.",
+      "Designed a data-flow scheme that brings plant data into one model.",
+      "Built a monitoring dashboard on top of that model."
+     ],
+     "ol"
+    ],
+    [
+     "What we delivered",
+     [],
+     [
+      "A data-flow scheme for finished-goods inventory across plants.",
+      "A monitoring dashboard with a company-wide view and a view per plant."
+     ]
+    ],
+    [
+     "Outcome",
+     [
+      "Finished-goods stock across the company's production sites became visible in one dashboard, built on a documented data architecture that can be extended to new sites."
      ]
     ]
    ],
@@ -146,6 +248,34 @@
     [
      "assets/cases/finished-goods-placeholder.webp",
      1.7778
+    ]
+   ],
+   "flow": [
+    "Data-flow scheme",
+    [
+     [
+      "Plants",
+      [
+       "Plant 1 records",
+       "Plant 2 records",
+       "Plant N records"
+      ]
+     ],
+     [
+      "Data model",
+      [
+       "Unified inventory model",
+       "Regular updates"
+      ]
+     ],
+     [
+      "Monitoring",
+      [
+       "Company-wide stock",
+       "Stock by plant",
+       "Changes over time"
+      ]
+     ]
     ]
    ]
   },
@@ -163,11 +293,33 @@
    "art": "bars",
    "sections": [
     [
-     "Brief",
+     "Challenge",
+     [
+      "A consumer-device brand had completed research into its packaging and needed to present it at a conference. The audience had to follow the research quickly, from its goals to its conclusions, within a short talk."
+     ]
+    ],
+    [
+     "Approach",
      [],
      [
-      "Design a presentation for a conference talk.",
-      "The deck had to present the research findings: goals, method, target audience and conclusions."
+      "Structured the talk as a research story: goals, method, audience, findings, conclusions.",
+      "Turned the research findings into charts and diagrams instead of text slides.",
+      "Designed the deck to be readable from the back of a conference hall."
+     ],
+     "ol"
+    ],
+    [
+     "What we delivered",
+     [],
+     [
+      "A conference presentation of the packaging research.",
+      "Visualisations of the research method, target audience and key findings."
+     ]
+    ],
+    [
+     "Outcome",
+     [
+      "The brand presented its packaging research as a clear, visual story that the conference audience could follow from question to conclusion."
      ]
     ]
    ],
@@ -178,6 +330,31 @@
     [
      "assets/cases/device-company-placeholder.webp",
      1.7778
+    ]
+   ],
+   "flow": [
+    "Storyline",
+    [
+     [
+      "Why",
+      [
+       "Research goals"
+      ]
+     ],
+     [
+      "How",
+      [
+       "Methodology",
+       "Target audience"
+      ]
+     ],
+     [
+      "What we found",
+      [
+       "Key findings",
+       "Conclusions"
+      ]
+     ]
     ]
    ]
   },
@@ -195,13 +372,27 @@
    "art": "bars",
    "sections": [
     [
-     "Brief",
+     "Challenge",
      [
-      "Redesign the company's existing slides."
+      "The company's existing slides no longer reflected a modern technology business. They had to follow the brand book, stay informative, and fit all of the information from the master version onto a single slide, for a deck emailed to partners and clients."
+     ]
+    ],
+    [
+     "Approach",
+     [],
+     [
+      "Reviewed the master slides and ranked the information by importance to partners and clients.",
+      "Rebuilt the layout on a grid from the brand book, so dense content stays readable.",
+      "Replaced text blocks with structured visuals where possible."
      ],
+     "ol"
+    ],
+    [
+     "What we delivered",
+     [],
      [
-      "The deck had to reflect the company's modern approach and comply with its brand book, while staying informative and fitting all the information from the master version onto one slide.",
-      "Format: a presentation emailed to partners and clients."
+      "Redesigned slides that keep all of the master-deck content.",
+      "A layout that works as a standalone email attachment, without a speaker."
      ]
     ],
     [
@@ -219,6 +410,33 @@
      "assets/cases/microelectronics-placeholder.webp",
      1.7778
     ]
+   ],
+   "flow": [
+    "Redesign logic",
+    [
+     [
+      "Before",
+      [
+       "Text-heavy slides",
+       "Off-brand styling"
+      ]
+     ],
+     [
+      "Process",
+      [
+       "Rank content",
+       "Apply brand-book grid",
+       "Visualise structure"
+      ]
+     ],
+     [
+      "After",
+      [
+       "All content on one slide",
+       "On-brand, modern look"
+      ]
+     ]
+    ]
    ]
   },
   {
@@ -235,20 +453,35 @@
    "art": "area",
    "sections": [
     [
-     "Brief",
+     "Challenge",
      [
-      "Carry out a comprehensive analysis of the results of the bank's pilot project and present them to top management."
+      "A bank had run a pilot project since the start of the year and needed a comprehensive analysis of its results for top management: what worked, for which clients, and through which channels."
      ]
     ],
     [
-     "What it took",
+     "Approach",
      [],
      [
-      "Process the month-by-month analytical results since the start of the year.",
-      "Consolidate each month's data, grouped by client category and product type.",
-      "Identify the most effective client-acquisition channels within the pilot.",
-      "Visualise the data and surface the key insights.",
-      "Build the storyline and design the presentation."
+      "Processed the month-by-month analytical results since the start of the year.",
+      "Consolidated each month's data, grouped by client category and product type.",
+      "Identified the most effective client-acquisition channels within the pilot.",
+      "Visualised the data and surfaced the key insights.",
+      "Built the storyline and designed the presentation."
+     ],
+     "ol"
+    ],
+    [
+     "What we delivered",
+     [],
+     [
+      "A consolidated analytical dataset for the whole pilot period.",
+      "An executive presentation for top management with the key insights up front."
+     ]
+    ],
+    [
+     "Outcome",
+     [
+      "Top management received a single, data-backed view of the pilot's results, with the most effective client-acquisition channels clearly identified."
      ]
     ]
    ],
@@ -277,6 +510,34 @@
     "The team turned months of pilot data into a story the board understood in one meeting. The decision to scale was made on the strength of those slides.",
     "Pilot project lead, bank",
     "placeholder"
+   ],
+   "flow": [
+    "From data to decision",
+    [
+     [
+      "Data",
+      [
+       "Monthly results",
+       "Client categories",
+       "Product types"
+      ]
+     ],
+     [
+      "Analysis",
+      [
+       "Consolidation",
+       "Channel effectiveness",
+       "Key insights"
+      ]
+     ],
+     [
+      "Presentation",
+      [
+       "Storyline",
+       "Executive deck"
+      ]
+     ]
+    ]
    ]
   },
   {
@@ -293,14 +554,34 @@
    "art": "lines",
    "sections": [
     [
-     "Brief",
+     "Challenge",
+     [
+      "OTP Bank needed an English-language presentation that would introduce the company, its history and its products to an international audience, and serve as a tool for promoting the bank abroad."
+     ]
+    ],
+    [
+     "Approach",
      [],
      [
-      "Create an English-language presentation about the company: its history and main achievements, clearly organised for an international audience.",
-      "Illustrate the key products and services, highlighting their unique features and advantages over competitors.",
-      "Make the deck a strong tool for promoting the company and its offer internationally, emphasising its strengths and unique capabilities."
+      "Organised the company's history and main achievements into a clear narrative for readers new to the bank.",
+      "Illustrated key products and services, highlighting their features and advantages over competitors.",
+      "Designed the deck to emphasise the bank's strengths and unique capabilities."
      ],
      "ol"
+    ],
+    [
+     "What we delivered",
+     [],
+     [
+      "An English-language company presentation.",
+      "Product and service slides that can be reused in partner and client meetings."
+     ]
+    ],
+    [
+     "Outcome",
+     [
+      "The bank gained a presentation it can use to promote the company and its offer to international partners and clients."
+     ]
     ]
    ],
    "featured": false,
@@ -310,6 +591,32 @@
     [
      "assets/cases/otp-bank-placeholder.webp",
      1.7778
+    ]
+   ],
+   "flow": [
+    "Deck structure",
+    [
+     [
+      "Who we are",
+      [
+       "History",
+       "Main achievements"
+      ]
+     ],
+     [
+      "What we offer",
+      [
+       "Products",
+       "Services"
+      ]
+     ],
+     [
+      "Why us",
+      [
+       "Advantages",
+       "Unique capabilities"
+      ]
+     ]
     ]
    ]
   },
@@ -326,9 +633,33 @@
    "art": "network",
    "sections": [
     [
-     "Brief",
+     "Challenge",
      [
-      "Cover all of the company's areas of activity in detail."
+      "AVED works across several business lines. The company needed one presentation that covers every area of activity in detail while staying easy to navigate."
+     ]
+    ],
+    [
+     "Approach",
+     [],
+     [
+      "Gave every business line the same slide structure, so the deck reads as one system.",
+      "Built an overview that shows how the business lines relate to each other.",
+      "Used visual navigation so readers can jump straight to the area they care about."
+     ],
+     "ol"
+    ],
+    [
+     "What we delivered",
+     [],
+     [
+      "A company profile covering all of AVED's business lines.",
+      "A modular structure that lets sections be used on their own."
+     ]
+    ],
+    [
+     "Outcome",
+     [
+      "AVED has a single, consistent presentation of the whole company that can also be split into focused decks per business line."
      ]
     ]
    ],
@@ -339,6 +670,32 @@
     [
      "assets/cases/aved-placeholder.webp",
      1.7778
+    ]
+   ],
+   "flow": [
+    "Deck structure",
+    [
+     [
+      "Company",
+      [
+       "Overview",
+       "How the business lines connect"
+      ]
+     ],
+     [
+      "Business lines",
+      [
+       "One section per line",
+       "Same structure for each"
+      ]
+     ],
+     [
+      "Use",
+      [
+       "Full profile",
+       "Stand-alone sections"
+      ]
+     ]
     ]
    ]
   },
@@ -356,9 +713,27 @@
    "art": "bars",
    "sections": [
     [
-     "Brief",
+     "Challenge",
      [
-      "A final presentation of the results of Project 5-100."
+      "Project 5-100 was the national programme to raise the global competitiveness of Russian universities. Its final results had to be presented clearly and fairly, including the fact that its ultimate goals were not reached."
+     ]
+    ],
+    [
+     "Approach",
+     [],
+     [
+      "Structured the results around the programme's original goals.",
+      "Showed what changed for participating universities, and where the goals were not met.",
+      "Turned programme indicators into charts that officials and university leaders can read the same way."
+     ],
+     "ol"
+    ],
+    [
+     "What we delivered",
+     [],
+     [
+      "A final results presentation for Project 5-100.",
+      "Charts and diagrams of the programme's key indicators."
      ]
     ],
     [
@@ -381,6 +756,32 @@
     "hice. took a decade of programme data and made the results clear to both officials and university leaders, without losing any of the nuance.",
     "Programme office, higher-education initiative",
     "placeholder"
+   ],
+   "flow": [
+    "Evaluation logic",
+    [
+     [
+      "Goals",
+      [
+       "Programme objectives"
+      ]
+     ],
+     [
+      "Evidence",
+      [
+       "Indicators by university",
+       "Changes over the programme"
+      ]
+     ],
+     [
+      "Assessment",
+      [
+       "What was achieved",
+       "What was not",
+       "Lessons"
+      ]
+     ]
+    ]
    ]
   },
   {
@@ -398,9 +799,35 @@
    "art": "lines",
    "sections": [
     [
-     "Overview",
+     "Challenge",
      [
-      "A selection of data-visualisation work for research and editorial use: export flows, industry revenue distributions, clean-energy stock performance, country-level coal trade and energy-mix charts, plus a full company infographic."
+      "Research teams in energy and commodities produce complex datasets: trade flows between countries, revenue distributions across industries, stock performance and energy mixes. Each finding needs a chart that makes its argument clear to readers of reports and articles."
+     ]
+    ],
+    [
+     "Approach",
+     [],
+     [
+      "Started from the finding, then chose the chart form that shows it best.",
+      "Used specialised forms where they fit the data: Sankey diagrams for flows, chord diagrams for two-way trade, beeswarms for distributions, streamgraphs for change over time.",
+      "Kept one visual system across all charts, so they read as a family inside reports."
+     ],
+     "ol"
+    ],
+    [
+     "What we delivered",
+     [],
+     [
+      "Export-flow Sankey diagrams.",
+      "Industry revenue distributions and clean-energy stock performance charts.",
+      "Country-level coal trade and energy-mix charts.",
+      "A full company infographic."
+     ]
+    ],
+    [
+     "Outcome",
+     [
+      "A library of research and editorial graphics in a consistent visual language, ready to drop into reports, articles and presentations."
      ]
     ]
    ],
@@ -417,6 +844,35 @@
     "Our analysts bring the numbers; hice. finds the one chart that makes the argument. Their graphics now carry our reports.",
     "Research director, energy & commodities research",
     "placeholder"
+   ],
+   "flow": [
+    "Chart selection",
+    [
+     [
+      "Question",
+      [
+       "Where does it flow?",
+       "How is it spread?",
+       "How does it change?"
+      ]
+     ],
+     [
+      "Form",
+      [
+       "Sankey / chord",
+       "Beeswarm",
+       "Streamgraph / line"
+      ]
+     ],
+     [
+      "Use",
+      [
+       "Reports",
+       "Editorial articles",
+       "Presentations"
+      ]
+     ]
+    ]
    ]
   },
   {
@@ -434,14 +890,35 @@
    "art": "contours",
    "sections": [
     [
-     "Overview",
+     "Challenge",
      [
-      "Shaded-relief regional maps, global trade-flow maps and interactive Datawrapper maps."
+      "Energy and commodities research often depends on geography: where power plants are, how coal and other goods are traded between regions, how indicators differ by province. These stories need maps, not tables."
      ]
     ],
     [
-     "Interactive maps",
-     []
+     "Approach",
+     [],
+     [
+      "Used shaded-relief regional maps to place assets such as coal power plants in their landscape.",
+      "Built global trade-flow maps to show the direction and size of trade between countries.",
+      "Published interactive choropleths in Datawrapper, for example China's net exports by province, so readers can explore the data themselves."
+     ],
+     "ol"
+    ],
+    [
+     "What we delivered",
+     [],
+     [
+      "Shaded-relief regional maps.",
+      "Global trade-flow maps.",
+      "Interactive Datawrapper maps for online publication."
+     ]
+    ],
+    [
+     "Outcome",
+     [
+      "Geographic data from the research became maps that work in print reports and as interactive graphics online."
+     ]
     ]
    ],
    "featured": false,
@@ -451,6 +928,31 @@
     [
      "assets/cases/geo-mapping-placeholder.webp",
      1.7778
+    ]
+   ],
+   "flow": [
+    "Map types",
+    [
+     [
+      "Place",
+      [
+       "Shaded-relief regional maps",
+       "Asset locations"
+      ]
+     ],
+     [
+      "Flow",
+      [
+       "Global trade-flow maps"
+      ]
+     ],
+     [
+      "Compare",
+      [
+       "Interactive choropleths",
+       "Data by province"
+      ]
+     ]
     ]
    ]
   },
@@ -474,6 +976,62 @@
      "assets/cases/assets-map-placeholder.webp",
      1.7778
     ]
+   ],
+   "sections": [
+    [
+     "Challenge",
+     [
+      "The company's key infrastructure assets are spread around the world. People inside and outside the company needed a quick way to see where they are and what each one is."
+     ]
+    ],
+    [
+     "Approach",
+     [],
+     [
+      "Collected the company's key infrastructure assets and their locations into one dataset.",
+      "Prototyped and built an interactive web map with AI coding assistants."
+     ],
+     "ol"
+    ],
+    [
+     "What we delivered",
+     [],
+     [
+      "An interactive global map of the company's key infrastructure assets."
+     ]
+    ],
+    [
+     "Outcome",
+     [
+      "The company's key assets around the world are visible on one interactive map, built with AI-assisted development."
+     ]
+    ]
+   ],
+   "flow": [
+    "How it is built",
+    [
+     [
+      "Data",
+      [
+       "Asset list",
+       "Locations & attributes"
+      ]
+     ],
+     [
+      "Build",
+      [
+       "AI-assisted prototyping",
+       "Web map"
+      ]
+     ],
+     [
+      "Use",
+      [
+       "Global view",
+       "Key assets on the map"
+      ]
+     ]
+    ]
    ]
   },
   {
@@ -495,6 +1053,60 @@
     [
      "assets/cases/ev-dashboard-placeholder.webp",
      1.7778
+    ]
+   ],
+   "sections": [
+    [
+     "Challenge",
+     [
+      "The electric-vehicle market changes fast. Analysts needed an interactive way to explore its key indicators instead of static charts that go out of date."
+     ]
+    ],
+    [
+     "Approach",
+     [],
+     [
+      "Selected the indicators that describe the state of the EV market.",
+      "Prototyped and built an interactive dashboard with AI coding assistants."
+     ],
+     "ol"
+    ],
+    [
+     "What we delivered",
+     [],
+     [
+      "An interactive dashboard on the electric-vehicle market."
+     ]
+    ],
+    [
+     "Outcome",
+     [
+      "An interactive dashboard that makes EV market data explorable, built quickly with AI-assisted development."
+     ]
+    ]
+   ],
+   "flow": [
+    "How it is built",
+    [
+     [
+      "Data",
+      [
+       "EV market indicators"
+      ]
+     ],
+     [
+      "Build",
+      [
+       "AI-assisted prototyping",
+       "Interactive dashboard"
+      ]
+     ],
+     [
+      "Use",
+      [
+       "Interactive market view"
+      ]
+     ]
     ]
    ]
   },
@@ -518,6 +1130,64 @@
      "assets/cases/sankey-tool-placeholder.webp",
      1.7778
     ]
+   ],
+   "sections": [
+    [
+     "Challenge",
+     [
+      "Sankey diagrams are a common way to show flows in research, but building them by hand from raw data is slow and error-prone, and every chart has to be exported in several formats."
+     ]
+    ],
+    [
+     "Approach",
+     [],
+     [
+      "Automated the aggregation of raw data into source-to-target flows.",
+      "Generated Sankey diagrams in our visual style directly from the aggregated data.",
+      "Added automatic export to vector and raster formats.",
+      "Built the utility with AI coding assistants."
+     ],
+     "ol"
+    ],
+    [
+     "What we delivered",
+     [],
+     [
+      "A utility that aggregates data and builds Sankey diagrams.",
+      "Automatic export to vector and raster formats."
+     ]
+    ],
+    [
+     "Outcome",
+     [
+      "Sankey diagrams that used to be assembled by hand are now generated from data, with print and web formats exported in one step."
+     ]
+    ]
+   ],
+   "flow": [
+    "Pipeline",
+    [
+     [
+      "Input",
+      [
+       "Raw data table"
+      ]
+     ],
+     [
+      "Processing",
+      [
+       "Aggregation into flows",
+       "Sankey layout"
+      ]
+     ],
+     [
+      "Export",
+      [
+       "Vector formats",
+       "Raster formats"
+      ]
+     ]
+    ]
    ]
   },
   {
@@ -539,6 +1209,61 @@
     [
      "assets/cases/vizforge-placeholder.webp",
      1.7778
+    ]
+   ],
+   "sections": [
+    [
+     "Challenge",
+     [
+      "Building well-designed charts usually takes specialist software and skills. The goal was a tool that turns a dataset into a finished, styled chart."
+     ]
+    ],
+    [
+     "Approach",
+     [],
+     [
+      "Designed a chart builder with many chart types.",
+      "Added rich styling options for the finished charts.",
+      "Built the tool with AI coding assistants."
+     ],
+     "ol"
+    ],
+    [
+     "What we delivered",
+     [],
+     [
+      "VizForge, a data-visualisation tool with many chart types, styling options and export."
+     ]
+    ],
+    [
+     "Outcome",
+     [
+      "A full data-visualisation tool that turns a dataset into a styled, exportable chart in a few steps."
+     ]
+    ]
+   ],
+   "flow": [
+    "How it works",
+    [
+     [
+      "Data",
+      [
+       "Upload a dataset"
+      ]
+     ],
+     [
+      "Design",
+      [
+       "Choose a chart type",
+       "Style it"
+      ]
+     ],
+     [
+      "Output",
+      [
+       "Export the chart"
+      ]
+     ]
     ]
    ]
   }
