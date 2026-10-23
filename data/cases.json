@@ -922,14 +922,9 @@
     ]
    ],
    "featured": false,
-   "cover": "assets/cases/geo-mapping-placeholder.webp",
+   "cover": "assets/cases/geo-mapping-01.webp",
    "coverAr": 1.7778,
-   "img": [
-    [
-     "assets/cases/geo-mapping-placeholder.webp",
-     1.7778
-    ]
-   ],
+   "img": [],
    "flow": [
     "Map types",
     [
