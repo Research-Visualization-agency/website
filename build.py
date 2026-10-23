@@ -95,14 +95,21 @@ def render_body(c):
             f'<li><a href="{h(u)}" target="_blank" rel="noopener">{h(t)} {EXT}</a></li>' for t, u in res) + "</ul></div>"
 
     imgs = c.get("img", [])
+    if c.get("embed"):  # live embeds show the real work, so generated placeholder images step aside
+        imgs = [im for im in imgs if "placeholder" not in im[0]]
     duo = len(imgs) > 3 and all(i[1] < 1.3 for i in imgs)
     if imgs:
         gal = "".join(
             f'<figure{full(duo, im)}><img src="../{h(im[0])}" '
             f'alt="{h(c["title"])} — image {i + 1} of {len(imgs)}" loading="lazy" decoding="async" '
             f'style="aspect-ratio:{im[1]}"></figure>' for i, im in enumerate(imgs))
-    else:
+    elif not c.get("embed"):
         gal = f'<figure class="art">{art_svg(c.get("art", "bars"), c["title"] + " — illustration")}</figure>'
+    else:
+        gal = ""
+    for t, u in c.get("embed", []):
+        gal += (f'<figure class="embed"><iframe src="{h(u)}" title="{h(t)}" loading="lazy" scrolling="no"></iframe>'
+                f'<figcaption>{h(t)}</figcaption></figure>')
     if c.get("flow"):
         gal += flow_html(c["flow"])
     out += f'<div class="dlg-body" data-rv style="--rd:1"><div class="dlg-text">{txt}</div><div class="gallery{" duo" if duo else ""}">{gal}</div></div>'
@@ -126,6 +133,11 @@ PAGE_JS = """<script src="../assets/art.js"></script>
       f.innerHTML = '<svg data-art="' + art + '" viewBox="0 0 640 360" preserveAspectRatio="xMidYMid slice" role="img" aria-label="' + img.alt.replace(/"/g, "") + '"></svg>';
       draw(f);
     });
+  });
+  window.addEventListener("message", function (e) {
+    var hs = e.data && e.data["datawrapper-height"];
+    if (!hs) return;
+    $$(".embed iframe").forEach(function (f) { for (var k in hs) if (f.contentWindow === e.source) f.style.height = hs[k] + "px"; });
   });
   var menu = document.getElementById("menu"), btn = document.getElementById("menuBtn");
   function setMenu(o) { menu.hidden = !o; btn.setAttribute("aria-expanded", String(o)); document.body.classList.toggle("menu-open", o); }
