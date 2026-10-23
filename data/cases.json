@@ -16,11 +16,6 @@
    "desc": "Charts, infographics and geographic maps on energy, commodities and trade."
   },
   {
-   "id": "brand",
-   "title": "Brand, web & visual communication",
-   "desc": "Identity systems, websites, landing pages and social content tied to measurable business results."
-  },
-  {
    "id": "ai",
    "title": "AI-built tools & apps",
    "desc": "Interactive data tools prototyped and shipped with AI coding assistants."
@@ -71,6 +66,11 @@
      "assets/cases/stocks-in-ports-placeholder.webp",
      1.7778
     ]
+   ],
+   "quote": [
+    "For the first time we see stock across every port in one place. Weekly planning that used to take two days of spreadsheet work now takes an hour.",
+    "Head of supply-chain planning, logistics company",
+    "placeholder"
    ]
   },
   {
@@ -272,6 +272,11 @@
      "assets/cases/bank-pilot-04.webp",
      1.7778
     ]
+   ],
+   "quote": [
+    "The team turned months of pilot data into a story the board understood in one meeting. The decision to scale was made on the strength of those slides.",
+    "Pilot project lead, bank",
+    "placeholder"
    ]
   },
   {
@@ -338,36 +343,6 @@
    ]
   },
   {
-   "id": "smm-galaxy",
-   "g": "presentations",
-   "title": "SMM Galaxy services deck",
-   "client": "SMM Galaxy (agency)",
-   "badge": "Sales deck",
-   "tags": [
-    "Marketing",
-    "Agency"
-   ],
-   "sum": "A presentation introducing clients to the full range of the agency's social-media services.",
-   "art": "contours",
-   "sections": [
-    [
-     "Brief",
-     [
-      "Prepare a presentation on the agency's SMM practice to introduce clients to the wide range of services and capabilities in this area."
-     ]
-    ]
-   ],
-   "featured": false,
-   "cover": "assets/cases/smm-galaxy-placeholder.webp",
-   "coverAr": 1.7778,
-   "img": [
-    [
-     "assets/cases/smm-galaxy-placeholder.webp",
-     1.7778
-    ]
-   ]
-  },
-  {
    "id": "project-5-100",
    "g": "presentations",
    "title": "Project 5-100: final results",
@@ -401,6 +376,11 @@
      "assets/cases/project-5-100-placeholder.webp",
      1.7778
     ]
+   ],
+   "quote": [
+    "hice. took a decade of programme data and made the results clear to both officials and university leaders, without losing any of the nuance.",
+    "Programme office, higher-education initiative",
+    "placeholder"
    ]
   },
   {
@@ -432,6 +412,11 @@
      "assets/cases/dataviz-charts-placeholder.webp",
      1.7778
     ]
+   ],
+   "quote": [
+    "Our analysts bring the numbers; hice. finds the one chart that makes the argument. Their graphics now carry our reports.",
+    "Research director, energy & commodities research",
+    "placeholder"
    ]
   },
   {
@@ -465,254 +450,6 @@
    "img": [
     [
      "assets/cases/geo-mapping-placeholder.webp",
-     1.7778
-    ]
-   ]
-  },
-  {
-   "id": "klatz",
-   "g": "brand",
-   "title": "Klatz",
-   "client": "Klatz (oral care)",
-   "year": "2020–2023",
-   "badge": "Identity + web",
-   "tags": [
-    "Branding",
-    "Web",
-    "SMM"
-   ],
-   "sum": "Identity, websites and social media for the oral-care brand Klatz – ~100M ad visits and a route onto major retail shelves.",
-   "art": "bars",
-   "sections": [
-    [
-     "Project",
-     [
-      "Identity, website design and SMM for the oral-care brand Klatz."
-     ]
-    ],
-    [
-     "Role",
-     [
-      "Art direction, brand identity, website and landing-page design, visual guidelines, SMM.",
-      "hice created the corporate identity, developed a comprehensive brand guide, designed the company website and produced materials for advertising campaigns. hice also curated and managed the brand's presence on social media and marketplaces."
-     ]
-    ],
-    [
-     "Websites and landing pages",
-     [],
-     [
-      "Designed dedicated pages for Klatz product lines (brutal, brutal2 and glamour), which lifted sales of those lines by 3% and increased time on site by 2–4 minutes.",
-      "Attracted ~100 million ad-driven visits to the site group over three years.",
-      "Reached more than 7–8 million unique users in total."
-     ]
-    ],
-    [
-     "Impact",
-     [
-      "After sales through the websites and landing pages took off, the company got onto the shelves of major retail chains such as Perekrestok, Lenta and Metro. From 2021 it also moved onto marketplaces – helped by the website redesign and themed landing pages for each product line."
-     ]
-    ]
-   ],
-   "stats": [
-    [
-     "~100M",
-     "ad-driven visits in 3 years"
-    ],
-    [
-     "7–8M",
-     "unique users reached"
-    ],
-    [
-     "+3%",
-     "sales of featured product lines"
-    ]
-   ],
-   "featured": false,
-   "cover": "assets/cases/klatz-02.webp",
-   "coverAr": 1.24,
-   "img": [
-    [
-     "assets/cases/klatz-02.webp",
-     1.2358
-    ]
-   ]
-  },
-  {
-   "id": "novonatum",
-   "g": "brand",
-   "title": "Novonatum (Colief & Bioamicus)",
-   "client": "Novonatum (healthcare)",
-   "year": "2021–2023",
-   "badge": "Identity + web",
-   "tags": [
-    "Healthcare",
-    "Web"
-   ],
-   "sum": "Branding and web design for a healthcare company and its Colief and Bioamicus brands – a corporate site plus 10+ landing pages.",
-   "art": "lines",
-   "sections": [
-    [
-     "Project",
-     [
-      "Branding and web design for the healthcare company Novonatum and its brands Colief and Bioamicus."
-     ]
-    ],
-    [
-     "Role",
-     [
-      "Art direction, web design, communication design.",
-      "hice started working on the brands in 2021 and developed their visual identity within the first six months. Over the project hice built the company website and more than 10 landing pages that helped promote Colief and Bioamicus products, and produced a large volume of digital materials for advertising campaigns in support of Novonatum's marketing strategy."
-     ]
-    ],
-    [
-     "Websites and landing pages",
-     [],
-     [
-      "Design of the Novonatum corporate website.",
-      "Five landing pages, one per product (e.g. vitamin.colief.ru, masla.colief.ru).",
-      "These attracted ~10 million active user visits.",
-      "Conversion of 3–5%.",
-      "Average time on site: 2 minutes.",
-      "~100 million ad-driven visits over three years."
-     ]
-    ],
-    [
-     "Impact",
-     [
-      "Successful sales through the websites and landing pages opened the way to marketplaces; since 2022 most sales have come through those platforms. External traffic to the site and landing pages became a key revenue source thanks to the improved design, which substantially increased the inflow of new customers."
-     ]
-    ]
-   ],
-   "stats": [
-    [
-     "~10M",
-     "active user visits"
-    ],
-    [
-     "3–5%",
-     "conversion"
-    ],
-    [
-     "2 min",
-     "average time on site"
-    ]
-   ],
-   "featured": false,
-   "cover": "assets/cases/novonatum-placeholder.webp",
-   "coverAr": 1.7778,
-   "img": [
-    [
-     "assets/cases/novonatum-placeholder.webp",
-     1.7778
-    ]
-   ]
-  },
-  {
-   "id": "marketgo",
-   "g": "brand",
-   "title": "MarketGO",
-   "client": "MarketGO (marketplace agency)",
-   "year": "2021",
-   "badge": "Identity + web",
-   "tags": [
-    "Branding",
-    "Web",
-    "B2B"
-   ],
-   "sum": "Identity, website and communication materials for a marketplace-management agency – the site now drives 90% of inbound clients.",
-   "art": "network",
-   "sections": [
-    [
-     "Project",
-     [
-      "Brand identity, website design and communication materials for an agency that runs stores on online marketplaces."
-     ]
-    ],
-    [
-     "Role",
-     [
-      "Art direction, identity, website design, brand guidelines.",
-      "hice created the corporate identity and a comprehensive brand guide, designed the company website and supporting materials, and oversaw the brand going forward."
-     ]
-    ],
-    [
-     "Websites and landing pages",
-     [],
-     [
-      "Designed a website that became the leader in its niche, ranking first in Yandex and Google for target queries about managing marketplace stores.",
-      "Strong search indexing reflects high usability and long time on site.",
-      "Today the site generates 90% of all client inflow, accounting for 70–80% of the business's revenue."
-     ]
-    ]
-   ],
-   "stats": [
-    [
-     "90%",
-     "of client inflow via the website"
-    ],
-    [
-     "70–80%",
-     "of total revenue"
-    ],
-    [
-     "+40%",
-     "conversion after landing redesign"
-    ]
-   ],
-   "quote": [
-    "I'd single out Igor's ability to dig deep into a task and propose unconventional solutions. Igor 'hears the business' rather than just making pretty pictures. After he redesigned our internal landing page for one line of business (marketplaces), conversion rose by 40% – which effectively turned around the economics of the whole business and made that line our core one. I'd also note his reliability and commitment: always reachable and ready to resolve any issue quickly. That builds trust and makes a long-term relationship easy.",
-    "Head of the company"
-   ],
-   "featured": false,
-   "cover": "assets/cases/marketgo-placeholder.webp",
-   "coverAr": 1.7778,
-   "img": [
-    [
-     "assets/cases/marketgo-placeholder.webp",
-     1.7778
-    ]
-   ]
-  },
-  {
-   "id": "branding-agency",
-   "g": "brand",
-   "title": "Branding agency: website & social stories",
-   "client": "Draper (brand practice)",
-   "year": "2021–2022",
-   "badge": "Web + SMM",
-   "tags": [
-    "Web",
-    "SMM",
-    "Storytelling"
-   ],
-   "sum": "Website, case studies and a social series telling the stories of global brands – Red Bull, Supreme, Starbucks, Coca-Cola and more.",
-   "art": "bars",
-   "sections": [
-    [
-     "Project",
-     [
-      "Project work for the brand practice of Draper: designing social posts and case studies, and building the website."
-     ]
-    ],
-    [
-     "Role",
-     [
-      "Website development and design, company case studies, branding, SMM."
-     ]
-    ],
-    [
-     "Social posts",
-     [
-      "Designed a series of information stories about international companies and global brands: Red Bull, Supreme, Starbucks, Johnnie Walker, Coca-Cola, Pizza Hut and Tide's Super Bowl ad."
-     ]
-    ]
-   ],
-   "featured": false,
-   "cover": "assets/cases/branding-agency-placeholder.webp",
-   "coverAr": 1.7778,
-   "img": [
-    [
-     "assets/cases/branding-agency-placeholder.webp",
      1.7778
     ]
    ]

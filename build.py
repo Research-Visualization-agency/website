@@ -74,7 +74,9 @@ def render_body(c):
         if body:
             txt += f"<div><h3>{h(sec[0])}</h3>{body}</div>"
     if c.get("quote"):
-        txt += f'<blockquote class="quote"><p>“{h(c["quote"][0])}”</p><cite>— {h(c["quote"][1])}</cite></blockquote>'
+        # a third element "placeholder" marks an invented quote awaiting the real one; it is labelled as such on the page
+        mark = '<span class="quote-mark">Sample testimonial</span>' if c["quote"][2:] == ["placeholder"] else ""
+        txt += f'<blockquote class="quote">{mark}<p>“{ht(c["quote"][0])}”</p><cite>— {h(c["quote"][1])}</cite></blockquote>'
     res = [(l[0], l[1]) for l in c.get("web", [])]
     res += [(l[0] + " (interactive)", l[1]) for l in c.get("links", [])]
     res += [(l[0], l[1]) for l in c.get("files", [])]
@@ -278,7 +280,7 @@ def work_page():
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<meta name="description" content="Selected research, dashboard, presentation, data-visualisation and brand projects by hice.">
+<meta name="description" content="Selected research, dashboard, presentation and data-visualisation projects by hice.">
 <title>Our work — {h(SITE)}</title>
 <link rel="stylesheet" href="assets/site.css">
 <script>document.documentElement.classList.add("js")</script>
@@ -296,7 +298,7 @@ def work_page():
       <div class="sec-head" data-rv><p class="label">Our work</p><p class="label action">{len(CASES)} projects · {len(data["groups"])} directions</p></div>
       <div class="grid">
         <div class="work-intro" data-rv><h1 class="h2" id="workTitle">Evidence, made visible. Built for the people who decide.</h1></div>
-        <p class="work-note" data-rv>Case studies across five directions: from live BI systems and executive decks to maps, brand platforms and AI-built tools.</p>
+        <p class="work-note" data-rv>Case studies across four directions: from live BI systems and executive decks to maps and AI-built tools.</p>
         <ul class="filters" id="caseFilters" aria-label="Filter projects by direction" data-rv>{filters}</ul>
         <div class="case-groups" id="caseGroups">{"".join(groups)}</div>
       </div>
