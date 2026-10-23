@@ -1,0 +1,8 @@
+// Static site on Cloudflare Workers: every file in the repo root is served as-is.
+{
+  "name": "website",
+  "compatibility_date": "2025-10-01",
+  "assets": { "directory": "./" },
+  // required by `wrangler preview`, which Workers Builds runs for non-production branches
+  "previews": {}
+}

@@ -1,0 +1,6 @@
+.git
+.assetsignore
+wrangler.jsonc
+build.py
+data
+README.md
