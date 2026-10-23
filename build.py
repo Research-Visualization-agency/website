@@ -73,10 +73,9 @@ def render_body(c):
             body += f"<{tag}>" + "".join(f"<li>{ht(li)}</li>" for li in sec[2]) + f"</{tag}>"
         if body:
             txt += f"<div><h3>{h(sec[0])}</h3>{body}</div>"
-    if c.get("quote"):
-        # a third element "placeholder" marks an invented quote awaiting the real one; it is labelled as such on the page
-        mark = '<span class="quote-mark">Sample testimonial</span>' if c["quote"][2:] == ["placeholder"] else ""
-        txt += f'<blockquote class="quote">{mark}<p>“{ht(c["quote"][0])}”</p><cite>— {h(c["quote"][1])}</cite></blockquote>'
+    # a third element "placeholder" marks a draft quote awaiting the client's real words; drafts are not published
+    if c.get("quote") and c["quote"][2:] != ["placeholder"]:
+        txt += f'<blockquote class="quote"><p>“{ht(c["quote"][0])}”</p><cite>— {h(c["quote"][1])}</cite></blockquote>'
     res = [(l[0], l[1]) for l in c.get("web", [])]
     res += [(l[0] + " (interactive)", l[1]) for l in c.get("links", [])]
     res += [(l[0], l[1]) for l in c.get("files", [])]
