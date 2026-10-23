@@ -445,3 +445,8 @@ body.dlg-open { overflow: hidden; }
   .flow ol > li + li::before { left: 12px; top: -24px; width: 1px; height: 16px; }
   .flow ol > li + li::after { left: 8px; top: -14px; transform: rotate(135deg); }
 }
+
+/* live third-party embeds on case pages (data "embed"), e.g. Datawrapper maps; height follows the chart */
+.gallery .embed { background: #fff; }
+.embed iframe { display: block; width: 100%; height: 520px; border: 0; }
+.embed figcaption { padding: 10px 14px; font-size: 13px; color: var(--ink-muted); background: var(--bg-secondary); border-top: 1px solid var(--line); }
