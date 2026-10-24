@@ -280,6 +280,88 @@
    ]
   },
   {
+   "id": "control-tower",
+   "g": "dashboards",
+   "title": "Supply-chain Control Tower",
+   "client": "Industrial manufacturer",
+   "badge": "BI system",
+   "tags": [
+    "Supply chain",
+    "Real-time monitoring",
+    "UX/UI"
+   ],
+   "sum": "A centralised monitoring and BI system that gives real-time visibility and control over the entire supply chain, from plant warehouses to sales.",
+   "art": "network",
+   "sections": [
+    [
+     "Challenge",
+     [
+      "The company needed one place to see and control its whole supply chain in real time. Data on warehouse loads, sales and stock lived in separate systems across plants and regions, so managers had no shared, up-to-date view of key performance indicators."
+     ]
+    ],
+    [
+     "Approach",
+     [],
+     [
+      "Worked with cross-functional teams to define what the interface had to show and do.",
+      "Selected the technology for data analysis and visualisation.",
+      "Evaluated software and integration options, prioritising fast deployment, ease of use and flexible interface design.",
+      "Built a prototype dashboard showing real-time KPIs for two production units.",
+      "Ran design control and functional checks during testing.",
+      "Wrote user guides and trained staff to use the new system."
+     ],
+     "ol"
+    ],
+    [
+     "Our role",
+     [
+      "hice led the project end to end: visual design, UX/UI, testing and roll-out of the system."
+     ]
+    ],
+    [
+     "Outcome",
+     [
+      "The system extended monitoring and analysis of the company's key performance metrics:"
+     ],
+     [
+      "live data on finished-goods warehouse loads at plants in every region;",
+      "the level of finished-goods sales across all business lines;",
+      "analysis of finished-goods stock held in warehouses."
+     ]
+    ]
+   ],
+   "flow": [
+    "System blueprint",
+    [
+     [
+      "Sources",
+      [
+       "Plant warehouse data",
+       "Sales data",
+       "Stock records"
+      ]
+     ],
+     [
+      "Control Tower",
+      [
+       "Data integration",
+       "Real-time KPI model",
+       "Prototype on two production units"
+      ]
+     ],
+     [
+      "Decisions",
+      [
+       "Warehouse loads by region",
+       "Sales by business line",
+       "Stock analysis"
+      ]
+     ]
+    ]
+   ],
+   "featured": false
+  },
+  {
    "id": "device-company",
    "g": "presentations",
    "title": "Packaging research for a consumer-device brand",
