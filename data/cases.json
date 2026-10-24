@@ -648,44 +648,44 @@
     ]
    ],
    "featured": true,
-   "cover": "assets/cases/dataviz-loadout-flows.webp",
-   "coverAr": 1.7778,
+   "cover": "assets/cases/dataviz-orig-loadout-flows.png",
+   "coverAr": 1.7701,
    "img": [
     [
-     "assets/cases/dataviz-loadout-flows.webp",
-     1.7778
+     "assets/cases/dataviz-orig-loadout-flows.png",
+     1.7701
     ],
     [
-     "assets/cases/dataviz-china-export.webp",
-     1.7778
+     "assets/cases/dataviz-orig-china-export.png",
+     0.675
     ],
     [
-     "assets/cases/dataviz-clean-stocks.webp",
-     1.7778
+     "assets/cases/dataviz-orig-clean-stocks.png",
+     0.8397
     ],
     [
-     "assets/cases/dataviz-music-revenue.webp",
-     1.7778
+     "assets/cases/dataviz-orig-music-revenue.png",
+     1.561
     ],
     [
-     "assets/cases/dataviz-ev-sales.webp",
-     1.7778
+     "assets/cases/dataviz-orig-ev-sales.png",
+     1.0
     ],
     [
-     "assets/cases/dataviz-coal-mix.webp",
-     1.7778
+     "assets/cases/dataviz-orig-coal-mix.png",
+     1.2417
     ],
     [
-     "assets/cases/dataviz-port-stocks.webp",
-     1.7778
+     "assets/cases/dataviz-orig-port-stocks.png",
+     0.5833
     ],
     [
-     "assets/cases/dataviz-norway-ev.webp",
-     1.7778
+     "assets/cases/dataviz-orig-norway-ev.png",
+     0.4986
     ],
     [
-     "assets/cases/dataviz-atlantic-storms.webp",
-     1.7778
+     "assets/cases/dataviz-orig-atlantic-storms.png",
+     1.3333
     ]
    ],
    "quote": [
@@ -721,8 +721,7 @@
       ]
      ]
     ]
-   ],
-   "imgNote": "Charts redrawn in the hice style. Client names are anonymised; values are approximate."
+   ]
   },
   {
    "id": "geo-mapping",
