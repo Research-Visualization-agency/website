@@ -648,11 +648,47 @@
     ]
    ],
    "featured": true,
-   "cover": "assets/cases/dataviz-charts-placeholder.webp",
+   "cover": "assets/cases/dataviz-loadout-flows.webp",
    "coverAr": 1.7778,
    "img": [
     [
-     "assets/cases/dataviz-charts-placeholder.webp",
+     "assets/cases/dataviz-loadout-flows.webp",
+     1.7778
+    ],
+    [
+     "assets/cases/dataviz-china-export.webp",
+     1.7778
+    ],
+    [
+     "assets/cases/dataviz-clean-stocks.webp",
+     1.7778
+    ],
+    [
+     "assets/cases/dataviz-music-revenue.webp",
+     1.7778
+    ],
+    [
+     "assets/cases/dataviz-ev-sales.webp",
+     1.7778
+    ],
+    [
+     "assets/cases/dataviz-coal-mix.webp",
+     1.7778
+    ],
+    [
+     "assets/cases/dataviz-loadout-yoy.webp",
+     1.7778
+    ],
+    [
+     "assets/cases/dataviz-port-stocks.webp",
+     1.7778
+    ],
+    [
+     "assets/cases/dataviz-norway-ev.webp",
+     1.7778
+    ],
+    [
+     "assets/cases/dataviz-atlantic-storms.webp",
      1.7778
     ]
    ],
@@ -689,7 +725,8 @@
       ]
      ]
     ]
-   ]
+   ],
+   "imgNote": "Charts redrawn in the hice style. Client names are anonymised; values are approximate."
   },
   {
    "id": "geo-mapping",
