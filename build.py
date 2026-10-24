@@ -110,6 +110,8 @@ def render_body(c):
     for t, u in c.get("embed", []):
         gal += (f'<figure class="embed"><iframe src="{h(u)}" title="{h(t)}" loading="lazy" scrolling="no"></iframe>'
                 f'<figcaption>{h(t)}</figcaption></figure>')
+    if c.get("imgNote"):
+        gal += f'<p class="gal-note">{h(c["imgNote"])}</p>'
     if c.get("flow"):
         gal += flow_html(c["flow"])
     out += f'<div class="dlg-body" data-rv style="--rd:1"><div class="dlg-text">{txt}</div><div class="gallery{" duo" if duo else ""}">{gal}</div></div>'
