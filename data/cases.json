@@ -377,11 +377,11 @@
     ]
    ],
    "featured": false,
-   "cover": "assets/cases/device-company-placeholder.webp",
+   "cover": "assets/cases/device-company-01.webp",
    "coverAr": 1.7778,
    "img": [
     [
-     "assets/cases/device-company-placeholder.webp",
+     "assets/cases/device-company-01.webp",
      1.7778
     ]
    ],
@@ -409,7 +409,8 @@
       ]
      ]
     ]
-   ]
+   ],
+   "imgNote": "Slide recreated in the hice style. Brand, product photography and packaging are removed."
   },
   {
    "id": "microelectronics",
