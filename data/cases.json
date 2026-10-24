@@ -602,6 +602,7 @@
   },
   {
    "id": "dataviz-charts",
+   "carousel": true,
    "g": "dataviz",
    "title": "Charts & infographics",
    "client": "Energy & commodities research",
@@ -664,7 +665,7 @@
      0.8397
     ],
     [
-     "assets/cases/dataviz-orig-music-revenue.png",
+     "assets/cases/dataviz-orig-music-revenue-en.png",
      1.561
     ],
     [

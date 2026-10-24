@@ -268,6 +268,27 @@ section { position: relative; }
 .gallery.duo figure.full { grid-column: 1 / -1; }
 @media (max-width: 600px) { .gallery.duo { grid-template-columns: 1fr; } }
 .gallery .art { aspect-ratio: 16 / 9; }
+.carousel { display: grid; gap: var(--space-16); }
+.car-track { display: flex; overflow-x: auto; scroll-snap-type: x mandatory; scrollbar-width: none; border: 1px solid var(--line); border-radius: var(--radius-sm); background: var(--bg-secondary); }
+.car-track::-webkit-scrollbar { display: none; }
+.car-track:focus-visible { outline: 2px solid var(--accent-electric); outline-offset: 2px; }
+.gallery .car-slide { flex: 0 0 100%; scroll-snap-align: start; height: clamp(320px, 70vh, 720px); border: 0; border-radius: 0; background: none; }
+.car-slide a { display: block; width: 100%; height: 100%; cursor: zoom-in; }
+.gallery .car-slide img { width: 100%; height: 100%; object-fit: contain; }
+.car-nav { display: flex; align-items: center; gap: var(--space-16); }
+.car-btn { display: grid; place-items: center; width: 44px; height: 44px; flex: none; border: 1px solid var(--line); border-radius: 50%; background: none; color: inherit; cursor: pointer; }
+.car-btn svg { width: 20px; height: 20px; }
+.car-btn:hover:not(:disabled) { border-color: var(--accent-electric); color: var(--accent-electric); }
+.car-btn:disabled { opacity: .35; cursor: default; }
+.car-btn:last-child { order: 4; }
+.car-dots { display: flex; flex-wrap: wrap; gap: 4px; flex: 1; justify-content: center; }
+.car-dot { width: 24px; height: 24px; padding: 0; border: 0; background: none; cursor: pointer; position: relative; }
+.car-dot::after { content: ""; position: absolute; inset: 9px; border-radius: 50%; background: var(--line-strong); transition: background .2s, transform .2s; }
+.car-dot:hover::after { background: var(--ink-muted); }
+.car-dot[aria-current="true"]::after { background: var(--accent-electric); transform: scale(1.35); }
+.car-count { font: 600 12px/1 var(--font-sans); letter-spacing: .08em; color: var(--ink-muted); font-variant-numeric: tabular-nums; min-width: 4.5em; text-align: right; }
+@media (prefers-reduced-motion: reduce) { .car-track { scroll-behavior: auto; } }
+@media (max-width: 600px) { .gallery .car-slide { height: min(65vh, 125vw); } .car-nav { gap: var(--space-8, 8px); } .car-dots { gap: 0; flex-wrap: nowrap; } .car-dot { width: 16px; } .car-dot::after { inset: 9px 5px; } .car-count { min-width: 0; } }
 .gallery .art svg { display: block; width: 100%; height: 100%; }
 body.dlg-open { overflow: hidden; }
 
