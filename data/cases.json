@@ -450,18 +450,22 @@
      ]
     ],
     [
-     "Before / after",
+     "The redesign",
      [
-      "The first two slides show the original version; the last two show the redesign."
+      "Two slides from the redesigned deck: a project overview and a company profile, each fitting a full master-deck section onto a single slide."
      ]
     ]
    ],
    "featured": false,
-   "cover": "assets/cases/microelectronics-placeholder.webp",
+   "cover": "assets/cases/microelectronics-01.webp",
    "coverAr": 1.7778,
    "img": [
     [
-     "assets/cases/microelectronics-placeholder.webp",
+     "assets/cases/microelectronics-01.webp",
+     1.7778
+    ],
+    [
+     "assets/cases/microelectronics-02.webp",
      1.7778
     ]
    ],
@@ -491,7 +495,8 @@
       ]
      ]
     ]
-   ]
+   ],
+   "imgNote": "Slides recreated in the hice style. Names, logos and figures are anonymised and altered."
   },
   {
    "id": "bank-pilot",
