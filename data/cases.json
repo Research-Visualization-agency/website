@@ -648,9 +648,13 @@
     ]
    ],
    "featured": true,
-   "cover": "assets/cases/dataviz-china-export.webp",
+   "cover": "assets/cases/dataviz-loadout-flows.webp",
    "coverAr": 1.7778,
    "img": [
+    [
+     "assets/cases/dataviz-loadout-flows.webp",
+     1.7778
+    ],
     [
      "assets/cases/dataviz-china-export.webp",
      1.7778
@@ -718,7 +722,7 @@
      ]
     ]
    ],
-   "imgNote": "Charts redrawn in the hice style. Values are approximate."
+   "imgNote": "Charts redrawn in the hice style. Client names are anonymised; values are approximate."
   },
   {
    "id": "geo-mapping",
