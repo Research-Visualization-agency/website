@@ -648,13 +648,9 @@
     ]
    ],
    "featured": true,
-   "cover": "assets/cases/dataviz-loadout-flows.webp",
+   "cover": "assets/cases/dataviz-china-export.webp",
    "coverAr": 1.7778,
    "img": [
-    [
-     "assets/cases/dataviz-loadout-flows.webp",
-     1.7778
-    ],
     [
      "assets/cases/dataviz-china-export.webp",
      1.7778
@@ -673,10 +669,6 @@
     ],
     [
      "assets/cases/dataviz-coal-mix.webp",
-     1.7778
-    ],
-    [
-     "assets/cases/dataviz-loadout-yoy.webp",
      1.7778
     ],
     [
@@ -726,7 +718,7 @@
      ]
     ]
    ],
-   "imgNote": "Charts redrawn in the hice style. Client names are anonymised; values are approximate."
+   "imgNote": "Charts redrawn in the hice style. Values are approximate."
   },
   {
    "id": "geo-mapping",
