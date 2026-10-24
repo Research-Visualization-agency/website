@@ -293,11 +293,11 @@
     ]
    ],
    "featured": false,
-   "cover": "assets/cases/fuel-flows-placeholder.webp",
+   "cover": "assets/cases/fuel-flows-01.webp",
    "coverAr": 1.7778,
    "img": [
     [
-     "assets/cases/fuel-flows-placeholder.webp",
+     "assets/cases/fuel-flows-01.webp",
      1.7778
     ]
    ],
@@ -329,7 +329,8 @@
       ]
      ]
     ]
-   ]
+   ],
+   "imgNote": "Interface recreated in the hice style. Names, regions and figures are anonymised and altered."
   },
   {
    "id": "device-company",
