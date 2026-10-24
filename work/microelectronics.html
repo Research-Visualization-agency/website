@@ -106,6 +106,24 @@
       draw(f);
     });
   });
+  $$("[data-carousel]").forEach(function (car) {
+    var track = car.querySelector(".car-track"), slides = $$(".car-slide", car), dots = $$(".car-dot", car);
+    var count = car.querySelector(".car-count"), btns = $$(".car-btn", car), cur = 0;
+    function go(i) { i = Math.max(0, Math.min(slides.length - 1, i)); track.scrollTo({ left: slides[i].offsetLeft - track.offsetLeft, behavior: "smooth" }); }
+    function mark(i) {
+      cur = i; count.textContent = (i + 1) + " / " + slides.length;
+      dots.forEach(function (d, k) { if (k === i) d.setAttribute("aria-current", "true"); else d.removeAttribute("aria-current"); });
+      btns[0].disabled = i === 0; btns[1].disabled = i === slides.length - 1;
+    }
+    btns.forEach(function (b) { b.addEventListener("click", function () { go(cur + Number(b.getAttribute("data-dir"))); }); });
+    dots.forEach(function (d, k) { d.addEventListener("click", function () { go(k); }); });
+    track.addEventListener("keydown", function (e) {
+      if (e.key === "ArrowRight") { e.preventDefault(); go(cur + 1); }
+      if (e.key === "ArrowLeft") { e.preventDefault(); go(cur - 1); }
+    });
+    track.addEventListener("scroll", function () { var i = Math.round(track.scrollLeft / track.clientWidth); if (i !== cur) mark(i); }, { passive: true });
+    mark(0);
+  });
   window.addEventListener("message", function (e) {
     var hs = e.data && e.data["datawrapper-height"];
     if (!hs) return;

@@ -98,7 +98,20 @@ def render_body(c):
     if c.get("embed"):  # live embeds show the real work, so generated placeholder images step aside
         imgs = [im for im in imgs if "placeholder" not in im[0]]
     duo = len(imgs) > 3 and all(i[1] < 1.3 for i in imgs)
-    if imgs:
+    if imgs and c.get("carousel"):  # one image at a time, paged with arrows and dots
+        n = len(imgs)
+        slides = "".join(
+            f'<figure class="car-slide" aria-roledescription="slide" aria-label="{i + 1} of {n}">'
+            f'<a href="../{h(im[0])}" target="_blank" rel="noopener"><img src="../{h(im[0])}" '
+            f'alt="{h(c["title"])} — image {i + 1} of {n}" loading="{"eager" if i == 0 else "lazy"}" decoding="async"></a></figure>'
+            for i, im in enumerate(imgs))
+        dots = "".join(f'<button type="button" class="car-dot" aria-label="Image {i + 1}"{" aria-current=\"true\"" if i == 0 else ""}></button>' for i in range(n))
+        gal = (f'<div class="carousel" data-carousel aria-roledescription="carousel" aria-label="{h(c["title"])}">'
+               f'<div class="car-track" tabindex="0">{slides}</div>'
+               f'<div class="car-nav"><button type="button" class="car-btn" data-dir="-1" aria-label="Previous image">{ARROW_L}</button>'
+               f'<div class="car-dots">{dots}</div><span class="car-count" aria-live="polite">1 / {n}</span>'
+               f'<button type="button" class="car-btn" data-dir="1" aria-label="Next image">{ARROW_R}</button></div></div>')
+    elif imgs:
         gal = "".join(
             f'<figure{full(duo, im)}><img src="../{h(im[0])}" '
             f'alt="{h(c["title"])} — image {i + 1} of {len(imgs)}" loading="lazy" decoding="async" '
@@ -135,6 +148,24 @@ PAGE_JS = """<script src="../assets/art.js"></script>
       f.innerHTML = '<svg data-art="' + art + '" viewBox="0 0 640 360" preserveAspectRatio="xMidYMid slice" role="img" aria-label="' + img.alt.replace(/"/g, "") + '"></svg>';
       draw(f);
     });
+  });
+  $$("[data-carousel]").forEach(function (car) {
+    var track = car.querySelector(".car-track"), slides = $$(".car-slide", car), dots = $$(".car-dot", car);
+    var count = car.querySelector(".car-count"), btns = $$(".car-btn", car), cur = 0;
+    function go(i) { i = Math.max(0, Math.min(slides.length - 1, i)); track.scrollTo({ left: slides[i].offsetLeft - track.offsetLeft, behavior: "smooth" }); }
+    function mark(i) {
+      cur = i; count.textContent = (i + 1) + " / " + slides.length;
+      dots.forEach(function (d, k) { if (k === i) d.setAttribute("aria-current", "true"); else d.removeAttribute("aria-current"); });
+      btns[0].disabled = i === 0; btns[1].disabled = i === slides.length - 1;
+    }
+    btns.forEach(function (b) { b.addEventListener("click", function () { go(cur + Number(b.getAttribute("data-dir"))); }); });
+    dots.forEach(function (d, k) { d.addEventListener("click", function () { go(k); }); });
+    track.addEventListener("keydown", function (e) {
+      if (e.key === "ArrowRight") { e.preventDefault(); go(cur + 1); }
+      if (e.key === "ArrowLeft") { e.preventDefault(); go(cur - 1); }
+    });
+    track.addEventListener("scroll", function () { var i = Math.round(track.scrollLeft / track.clientWidth); if (i !== cur) mark(i); }, { passive: true });
+    mark(0);
   });
   window.addEventListener("message", function (e) {
     var hs = e.data && e.data["datawrapper-height"];
