@@ -545,23 +545,23 @@
     ]
    ],
    "featured": false,
-   "cover": "assets/cases/bank-pilot-02.webp",
-   "coverAr": 1.78,
+   "cover": "assets/cases/bank-pilot-anon-02.webp",
+   "coverAr": 1.7778,
    "img": [
     [
-     "assets/cases/bank-pilot-01.webp",
+     "assets/cases/bank-pilot-anon-01.webp",
      1.7778
     ],
     [
-     "assets/cases/bank-pilot-02.webp",
+     "assets/cases/bank-pilot-anon-02.webp",
      1.7778
     ],
     [
-     "assets/cases/bank-pilot-03.webp",
+     "assets/cases/bank-pilot-anon-03.webp",
      1.7778
     ],
     [
-     "assets/cases/bank-pilot-04.webp",
+     "assets/cases/bank-pilot-anon-04.webp",
      1.7778
     ]
    ],
@@ -597,7 +597,8 @@
       ]
      ]
     ]
-   ]
+   ],
+   "imgNote": "Slides recreated in the hice style. The bank’s branding is removed; figures and periods are anonymised and altered."
   },
   {
    "id": "otp-bank",
