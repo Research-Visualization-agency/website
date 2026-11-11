@@ -10,3 +10,5 @@ Static site (no build step needed to deploy; publish the repo root).
 - Project images are expected in `assets/cases/` (missing images fall back to the SVG illustration).
 
 After editing `data/cases.json`, run `python3 build.py` and commit the result.
+
+Service notes (domain, hosting, what is kept outside the repo): see `docs/`.
